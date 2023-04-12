@@ -17,12 +17,12 @@ const Contact = () => {
               <a href="#">Email</a>
             </li>
             <li>
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/" target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/" target="_blank">
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                 Twitter
               </a>
             </li>
@@ -30,6 +30,7 @@ const Contact = () => {
               <a
                 href="https://open.spotify.com/user/travishackbarth?si=dfffa376a5414627"
                 target="_blank"
+                rel="noreferrer"
               >
                 Spotify
               </a>

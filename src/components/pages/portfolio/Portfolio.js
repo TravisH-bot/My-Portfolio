@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./Portfolio.css";
 // import Header from "../header/Header";
 // import Navigation from "./Navigation";
 // import Footer from "../footer/Footer";

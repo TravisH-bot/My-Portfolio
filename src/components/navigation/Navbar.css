@@ -1,0 +1,46 @@
+/* Navbar formatting */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: var(--font-fam-2);
+  background-color: var(--light);
+  margin-bottom: 5px;
+}
+
+nav h2 {
+  padding: 0px 25px;
+  color: var(--darker);
+}
+
+.nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: inline-flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0px 25px;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  background-color: var(--extra-light);
+}
+
+.nav-link a {
+  flex-wrap: wrap;
+  display: inline-flex;
+  color: var(--darker);
+  text-decoration: none;
+}

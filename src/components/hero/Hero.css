@@ -1,0 +1,32 @@
+/* Formatting the hero section - Name and Picture*/
+
+section.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.me {
+  max-width: 55%;
+  max-height: 55%;
+  border: solid 4px var(--extra-light);
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1669447922465-5bad4d25fcf2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+  border: solid 5px var(--extra-light);
+  margin-bottom: 5px;
+  height: 250px;
+}
+
+h1 {
+  color: var(--darker);
+  background-color: var(--extra-light);
+  width: 300px;
+  height: 50px;
+  padding-bottom: 5px;
+  font-size: 40px;
+  font-family: var(--font-fam-1);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+}

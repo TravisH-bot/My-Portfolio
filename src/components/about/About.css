@@ -1,0 +1,6 @@
+/* Flexbox for about me paragraph text */
+.flexbox-item {
+  color: var(--darker);
+  margin: 5px;
+  font-size: 16px;
+}

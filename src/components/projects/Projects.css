@@ -1,0 +1,156 @@
+/* Formatting the main content - About me, Work, and Contact Me */
+
+/* Main flexbox container */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 160px;
+}
+
+/* Flexbox for about me paragraph text */
+.flexbox-item {
+  color: var(--darker);
+  margin: 5px;
+  font-size: 16px;
+}
+
+/* Flexbox hosting work projects */
+.flexbox-item-work {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  margin: 5px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+/* Work project caption formatting */
+h3 {
+  font-family: var(--font-fam-2);
+  background-color: var(--darker);
+  color: var(--extra-light);
+  padding: 8px;
+  position: relative;
+}
+
+/* Main formatting for current work image */
+.project-main {
+  background: url(./images/fluffy-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex: 1 4 700px;
+  width: 200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid var(--darker);
+  padding: 5px;
+  margin: 5px 5px;
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.project-main:hover {
+  opacity: 1;
+}
+
+/* Formatting for smaller, side projects not as the focus */
+.project-side {
+  display: flex;
+  flex: 1 1 500px;
+  width: 200px;
+  height: 200px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 4px solid var(--darker);
+  background-color: green;
+  padding: 5px;
+  margin: 5px 5px;
+  opacity: 0.5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.project-side:hover {
+  opacity: 1;
+}
+
+/* Background images for side projects */
+
+#philanthropic-cocktails {
+  background: url(./images/philanthropiccocktails.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#htmlcss {
+  background: url(./images/css-cheatsheet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pc {
+  background: url(https://images.unsplash.com/photo-1591238372338-22d30c883a86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#networking {
+  background: url(https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#projects {
+  background: url(https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1198&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Side bar title formatting */
+.title {
+  padding-right: 5px;
+  flex: 1 1;
+  font-size: 66px;
+  border-right: solid var(--darker) 4px;
+}
+.title h2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 5px;
+  font-size: 55px;
+  color: var(--darker);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  font-family: var(--font-fam-2);
+}
+
+/* Main content formatting as well as the contact me footer */
+
+.body-content {
+  text-align: left;
+  padding-left: 5px;
+  flex: 3 1;
+}
+
+.body-content ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.body-content a {
+  color: var(--darker);
+  font-family: var(--font-fam-2);
+  text-decoration: none;
+  font-size: 25px;
+  margin: 20px;
+}

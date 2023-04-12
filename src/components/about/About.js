@@ -2,11 +2,11 @@ import React from "react";
 
 const About = () => {
   return (
-    <section class="main-container">
-      <section id="about-me" class="flexbox-item title">
+    <section className="main-container">
+      <section id="about-me" className="flexbox-item title">
         <h2>About Me</h2>
       </section>
-      <section class="flexbox-item body-content">
+      <section className="flexbox-item body-content">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
           at voluptates maxime voluptas id facere aliquid quidem reiciendis

@@ -8,17 +8,17 @@ const NavBar = () => {
         <div>
           <h2>Travis Hackbarth</h2>
         </div>
-        <ul class="nav-ul">
-          <li class="nav-link">
+        <ul className="nav-ul">
+          <li className="nav-link">
             <a href="#about-me">About Me</a>
           </li>
-          <li class="nav-link">
+          <li className="nav-link">
             <a href="#work">Work</a>
           </li>
-          <li class="nav-link">
+          <li className="nav-link">
             <a href="#contact-me">Contact Me</a>
           </li>
-          <li class="nav-link">
+          <li className="nav-link">
             <a
               href="./assets/files/Travis Hackbarth Resume 2023.pdf"
               download="Travis Hackbarth Resume 2023"

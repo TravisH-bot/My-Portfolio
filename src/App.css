@@ -7,11 +7,11 @@
 }
 
 :root {
-  --extra-light: #eee3cb;
-  --light: #d7c0ae;
-  --medium: #b7c4cf;
-  --dark: #967e76;
-  --darker: #65647c;
+  --extra-light: #d9d9d9;
+  --light: #f9cf00;
+  --medium: #f19f4d;
+  --dark: #4484ce;
+  --darker: #4484ce;
   --font-fam-1: "Bitter", serif;
   --font-fam-2: "Questrial", sans-serif;
 }

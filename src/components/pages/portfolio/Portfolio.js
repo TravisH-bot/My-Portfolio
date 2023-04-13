@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import { JackInTheBox } from "react-awesome-reveal";
 // import Header from "../header/Header";
 // import Navigation from "./Navigation";
 // import Footer from "../footer/Footer";
@@ -10,7 +11,9 @@ const Projects = () => {
   return (
     <section className="main-container">
       <section id="work" className="flexbox-item title">
-        <h2>Work</h2>
+        <JackInTheBox triggerOnce>
+          <h2>Portfolio</h2>
+        </JackInTheBox>
       </section>
 
       <section className="flexbox-item-work body-content">

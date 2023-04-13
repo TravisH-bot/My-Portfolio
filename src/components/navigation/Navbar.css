@@ -1,6 +1,7 @@
 /* Navbar formatting */
 nav {
   display: flex;
+  height: 170px;
   justify-content: space-between;
   align-items: center;
   font-size: 25px;
@@ -11,6 +12,7 @@ nav {
 }
 
 nav h2 {
+  font-size: 60px;
   padding: 0px 25px;
   color: var(--darker);
 }

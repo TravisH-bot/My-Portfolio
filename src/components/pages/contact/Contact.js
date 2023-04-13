@@ -1,11 +1,17 @@
 import React from "react";
+import Form from "react-bootstrap/Form";
+import { JackInTheBox } from "react-awesome-reveal";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Contact.css";
 
 const Contact = () => {
   return (
     <footer>
       <section class="main-container">
         <section id="contact-me" class="flexbox-item title">
-          <h2>Contact Me</h2>
+          <JackInTheBox triggerOnce>
+            <h2>Contact Me</h2>
+          </JackInTheBox>
         </section>
 
         <section class="flexbox-item body-content">
@@ -36,6 +42,25 @@ const Contact = () => {
               </a>
             </li>
           </ul>
+        </section>
+        <section className="contact-form">
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Name</Form.Label>
+              <Form.Control type="name" placeholder="Enter your name" />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" placeholder="name@example.com" />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Example textarea</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+          </Form>
         </section>
       </section>
     </footer>

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/git%20/static/css/main.875256a7.css",
-    "main.js": "/My-Portfolio/git%20/static/js/main.6e3272a5.js",
-    "static/media/myPC.jpg": "/My-Portfolio/git%20/static/media/myPC.68a67eab5d16653d01c3.jpg",
-    "static/media/fluffy-2.png": "/My-Portfolio/git%20/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
-    "static/media/philanthropiccocktails.png": "/My-Portfolio/git%20/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
-    "static/media/fa-solid-900.ttf": "/My-Portfolio/git%20/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
-    "static/media/me.png": "/My-Portfolio/git%20/static/media/me.f67757823192d41e60d3.png",
-    "static/media/fa-brands-400.ttf": "/My-Portfolio/git%20/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/fa-solid-900.woff2": "/My-Portfolio/git%20/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/css-cheatsheet.png": "/My-Portfolio/git%20/static/media/css-cheatsheet.4a5c8828c7d499b95119.png",
-    "static/media/fa-brands-400.woff2": "/My-Portfolio/git%20/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
-    "static/media/fa-regular-400.ttf": "/My-Portfolio/git%20/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/fa-regular-400.woff2": "/My-Portfolio/git%20/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/fa-v4compatibility.ttf": "/My-Portfolio/git%20/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
-    "static/media/fa-v4compatibility.woff2": "/My-Portfolio/git%20/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "index.html": "/My-Portfolio/git%20/index.html",
-    "main.875256a7.css.map": "/My-Portfolio/git%20/static/css/main.875256a7.css.map",
-    "main.6e3272a5.js.map": "/My-Portfolio/git%20/static/js/main.6e3272a5.js.map"
+    "main.css": "/My-Portfolio/static/css/main.d5831ec2.css",
+    "main.js": "/My-Portfolio/static/js/main.6e3272a5.js",
+    "static/media/myPC.jpg": "/My-Portfolio/static/media/myPC.68a67eab5d16653d01c3.jpg",
+    "static/media/fluffy-2.png": "/My-Portfolio/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
+    "static/media/philanthropiccocktails.png": "/My-Portfolio/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
+    "static/media/fa-solid-900.ttf": "/My-Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/me.png": "/My-Portfolio/static/media/me.f67757823192d41e60d3.png",
+    "static/media/fa-brands-400.ttf": "/My-Portfolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/My-Portfolio/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/css-cheatsheet.png": "/My-Portfolio/static/media/css-cheatsheet.4a5c8828c7d499b95119.png",
+    "static/media/fa-brands-400.woff2": "/My-Portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/My-Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/My-Portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/My-Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/My-Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/My-Portfolio/index.html",
+    "main.d5831ec2.css.map": "/My-Portfolio/static/css/main.d5831ec2.css.map",
+    "main.6e3272a5.js.map": "/My-Portfolio/static/js/main.6e3272a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.875256a7.css",
+    "static/css/main.d5831ec2.css",
     "static/js/main.6e3272a5.js"
   ]
 }

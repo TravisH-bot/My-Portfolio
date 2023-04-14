@@ -1,10 +1,25 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import { JackInTheBox } from "react-awesome-reveal";
-import { useState } from "react";
 import "./Resume.css";
 
 const Resume = () => {
+  // Function will execute on click of button
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("Carter_White_resume.docx.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = "Travis Hackbarth Resume 2023-2.pdf";
+        alink.download = "Travis Hackbarth Resume 2023-2.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <section className="main-container content">
       <section id="about-me" className="flexbox-item title">
@@ -14,14 +29,10 @@ const Resume = () => {
       </section>
       <section className="flexbox-item body-content">
         <h2 class="text-4xl"> Proficiencies</h2>
-        <h3>
-          Download my{" "}
-          <Button id="res-sub" variant="primary">
-            <a href="./files/Travis Hackbarth Resume 2023-2.pdf" download>
-              resume
-            </a>
-          </Button>{" "}
-        </h3>
+        <h3>Download my resume</h3>
+        <Button id="res-sub" variant="primary" onClick={onButtonClick}>
+          Download PDF
+        </Button>{" "}
         <h2 class="text-3xl">Front-end Proficiencies</h2>
         <ul>
           <li>HTML</li>

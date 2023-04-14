@@ -8,7 +8,6 @@ nav {
   font-weight: bold;
   font-family: var(--font-fam-2);
   background-color: var(--light);
-  margin-bottom: 5px;
 }
 
 nav h2 {
@@ -33,15 +32,13 @@ nav h2 {
   text-align: center;
   padding: 0px 25px;
   text-decoration: none;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.5s ease-in-out;
 }
 
 .nav-link:hover {
   opacity: 1;
-  background-color: var(--medium);
   border-radius: 10px;
-  margin: 2px;
 }
 
 .nav-link a {

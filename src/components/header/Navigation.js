@@ -1,38 +1,57 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const NavBar = () => {
   return (
-    <header>
-      <nav>
-        <div>
-          <h2>Travis Hackbarth</h2>
-        </div>
-        <ul className="nav-ul">
-          <li className="nav-link">
-            <Link className="nav-link" to="/">
-              About Me
-            </Link>
-          </li>
-          <li className="nav-link">
-            <Link className="nav-link" to="/portfolio">
-              Portfolio
-            </Link>
-          </li>
-          <li className="nav-link">
-            <Link className="nav-link" to="/contact">
-              Contact Me
-            </Link>
-          </li>
-          <li className="nav-link">
-            <Link className="nav-link" to="/resume">
-              Resume
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav>
+      <div>
+        <h2>Travis Hackbarth</h2>
+      </div>
+      <ul className="nav-ul">
+        <li className="nav-link">
+          <NavLink
+            className={({ isActive }) => {
+              console.log(isActive);
+            }}
+            exact
+            to="/"
+          >
+            About Me
+          </NavLink>
+        </li>
+        <li className="nav-link">
+          <NavLink
+            className={({ isActive }) => {
+              console.log(isActive);
+            }}
+            to="/portfolio"
+          >
+            Portfolio
+          </NavLink>
+        </li>
+        <li className="nav-link">
+          <NavLink
+            className={({ isActive }) => {
+              console.log(isActive);
+            }}
+            to="/contact"
+          >
+            Contact Me
+          </NavLink>
+        </li>
+        <li className="nav-link">
+          <NavLink
+            className={({ isActive }) => {
+              console.log(isActive);
+            }}
+            to="/resume"
+          >
+            Resume
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

@@ -4,3 +4,13 @@
   margin: 5px;
   font-size: 16px;
 }
+
+.photo {
+  border: solid 4px var(--extra-light);
+  background: url(./images/me.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}

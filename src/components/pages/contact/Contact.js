@@ -7,10 +7,10 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <footer>
-      <section class="main-container">
+      <section class="main-container content">
         <section id="contact-me" class="flexbox-item title">
           <JackInTheBox triggerOnce>
-            <h2>Contact Me</h2>
+            <h2 className="text-9xl">Contact Me</h2>
           </JackInTheBox>
         </section>
 

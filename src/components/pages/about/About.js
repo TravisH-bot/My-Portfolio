@@ -1,13 +1,17 @@
 import React from "react";
 import { JackInTheBox } from "react-awesome-reveal";
+import "./About.css";
 
 const About = () => {
   return (
-    <section className="main-container">
+    <section className="main-container content">
       <section id="about-me" className="flexbox-item title">
         <JackInTheBox triggerOnce>
           <h2>About Me</h2>
         </JackInTheBox>
+      </section>
+      <section>
+        <div className="photo"></div>
       </section>
       <section className="flexbox-item body-content">
         <p>

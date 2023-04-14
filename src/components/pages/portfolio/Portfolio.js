@@ -1,52 +1,77 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./Portfolio.css";
 import { JackInTheBox } from "react-awesome-reveal";
-// import Header from "../header/Header";
-// import Navigation from "./Navigation";
-// import Footer from "../footer/Footer";
+import Project from "./Project";
 
-// Work -
+const projects = [
+  {
+    title: "Fluffy",
+    link: "https://enigmatic-falls-71377.herokuapp.com/",
+    classes: "project-main",
+  },
+  {
+    title: "philanthropic-cocktails",
+    link: "https://gharrison307.github.io/philanthropic-cocktails/",
+    classes: "project-side",
+    id: "philanthropic-cocktails",
+  },
+  {
+    title: "HTML/CSS Effects",
+    link: "https://travish-bot.github.io/CSS-snippet-cheatsheet/",
+    classes: "project-side",
+    id: "htmlcss",
+  },
+  {
+    title: "PC Building",
+    link: "",
+    classes: "project-side",
+    id: "pc",
+  },
+  {
+    title: "Fluffy",
+    link: "https://enigmatic-falls-71377.herokuapp.com/",
+    classes: "project-side",
+  },
+];
+
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+};
 
 const Projects = () => {
   return (
-    <section className="main-container">
+    <section className="main-container content">
       <section id="work" className="flexbox-item title">
         <JackInTheBox triggerOnce>
           <h2>Portfolio</h2>
         </JackInTheBox>
       </section>
 
-      <section className="flexbox-item-work body-content">
-        <section className="project-main">
-          <a
-            href="https://enigmatic-falls-71377.herokuapp.com/"
-            target="_blank"
-          >
-            <h3>Fluffy</h3>
-          </a>
-        </section>
-        <section id="philanthropic-cocktails" className="project-side">
-          <a
-            href="https://gharrison307.github.io/philanthropic-cocktails/"
-            target="_blank"
-          >
-            <h3>Philanthropic Cocktails</h3>
-          </a>
-        </section>
-        <section id="htmlcss" className="project-side">
-          <a
-            href="https://travish-bot.github.io/CSS-snippet-cheatsheet/"
-            target="_blank"
-          ></a>
-          <h3>HTML/CSS Effects</h3>
-        </section>
-        <section id="pc" className="project-side">
-          <h3>PC Building</h3>
-        </section>
-        <section id="projects" className="project-side">
-          <h3>Coding</h3>
-        </section>
-      </section>
+      <motion.ul
+        initial="hidden"
+        animate="visible"
+        variants={container}
+        className="flexbox-item-work body-content"
+      >
+        {projects.map((obj, i) => (
+          <Project
+            i={i}
+            classes={obj.classes}
+            link={obj.link}
+            title={obj.title}
+            id={obj.id}
+          />
+        ))}
+      </motion.ul>
     </section>
   );
 };

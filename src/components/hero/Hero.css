@@ -7,10 +7,14 @@ section.hero {
   text-align: center;
 }
 
-.me {
-  max-width: 55%;
-  max-height: 55%;
-  border: solid 4px var(--extra-light);
+.photo {
+  border: solid 4px var(--darker);
+  background: url(./images/me.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
 }
 
 .hero {

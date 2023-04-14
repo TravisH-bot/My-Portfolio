@@ -7,11 +7,23 @@
 }
 
 :root {
-  --extra-light: #d9d9d9;
-  --light: #f9cf00;
-  --medium: #f19f4d;
+  --extra-light: #8ecae6;
+  --light: #ffb703;
+  --medium: #219ebc;
   --dark: #4484ce;
-  --darker: #4484ce;
+  --darker: #023047;
   --font-fam-1: "Bitter", serif;
   --font-fam-2: "Questrial", sans-serif;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  min-height: 54vh;
+  background-color: var();
 }

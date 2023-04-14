@@ -96,9 +96,10 @@ h3 {
 }
 
 #pc {
-  background: url(https://images.unsplash.com/photo-1591238372338-22d30c883a86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+  background: url(./images/myPC.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #networking {
@@ -153,4 +154,19 @@ h3 {
   text-decoration: none;
   font-size: 25px;
   margin: 20px;
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  overflow: hidden;
+  margin: 0;
+  list-style: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
 }

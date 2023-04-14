@@ -8,9 +8,7 @@ const Hero = () => {
       <Slide triggerOnce>
         <h1>My Portfolio</h1>
       </Slide>
-      <div>
-        <img className="me" src="./images/me.png" alt="me" />
-      </div>
+      <div className="photo"></div>
     </section>
   );
 };

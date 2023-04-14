@@ -7,7 +7,7 @@ section.hero {
   text-align: center;
 }
 
-.photo {
+/* .photo {
   border: solid 4px var(--darker);
   background: url(./images/me.png);
   background-position: center;
@@ -15,7 +15,7 @@ section.hero {
   background-size: cover;
   width: 200px;
   height: 200px;
-}
+} */
 
 .hero {
   background: url(https://images.unsplash.com/photo-1669447922465-5bad4d25fcf2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);

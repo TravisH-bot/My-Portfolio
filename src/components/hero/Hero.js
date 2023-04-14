@@ -8,7 +8,7 @@ const Hero = () => {
       <Slide triggerOnce>
         <h1>My Portfolio</h1>
       </Slide>
-      <div className="photo"></div>
+      {/* <div className="photo"></div> */}
     </section>
   );
 };

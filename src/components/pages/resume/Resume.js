@@ -1,5 +1,8 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 import { JackInTheBox } from "react-awesome-reveal";
+import { useState } from "react";
+import "./Resume.css";
 
 const Resume = () => {
   return (
@@ -11,7 +14,14 @@ const Resume = () => {
       </section>
       <section className="flexbox-item body-content">
         <h2 class="text-4xl"> Proficiencies</h2>
-        <h3>Download my resume</h3>
+        <h3>
+          Download my{" "}
+          <Button id="res-sub" variant="primary">
+            <a href="./files/Travis Hackbarth Resume 2023-2.pdf" download>
+              resume
+            </a>
+          </Button>{" "}
+        </h3>
         <h2 class="text-3xl">Front-end Proficiencies</h2>
         <ul>
           <li>HTML</li>

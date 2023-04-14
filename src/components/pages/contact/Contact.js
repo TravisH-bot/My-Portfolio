@@ -1,10 +1,52 @@
 import React from "react";
+import { useState } from "react";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import { JackInTheBox } from "react-awesome-reveal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
+import { validateEmail } from "../../../utils/helpers";
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    // Based on the input type, we set the state of either email, username, and message
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "name") {
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
+    e.preventDefault();
+
+    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email");
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
+    alert(`Hello ${name}`);
+
+    // If everything goes according to plan, we want to clear out the input after a successful submission.
+    setName("");
+    setMessage("");
+    setEmail("");
+  };
+
   return (
     <footer>
       <section class="main-container content">
@@ -45,22 +87,46 @@ const Contact = () => {
         </section>
         <section className="contact-form">
           <Form>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="name" placeholder="Enter your name" />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" />
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlInput1"
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+            >
+              <Form.Label>Name:</Form.Label>
+              <Form.Control type="name" placeholder="name" />
             </Form.Group>
             <Form.Group
               className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
+              controlId="formBasicEmail"
+              value={email}
+              name="email"
+              onChange={handleInputChange}
             >
-              <Form.Label>Example textarea</Form.Label>
+              <Form.Label>Email address:</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
+            </Form.Group>
+
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+            >
+              <Form.Label>Message:</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
+            <Button variant="primary" onClick={handleFormSubmit}>
+              Submit
+            </Button>
           </Form>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
         </section>
       </section>
     </footer>

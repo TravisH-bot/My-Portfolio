@@ -24,6 +24,17 @@
   font-size: 16px;
 }
 
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  font-size: 50px;
+  color: var(--darker);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  font-family: var(--font-fam-2);
+}
+
 /* Work project caption formatting */
 h3 {
   font-family: var(--font-fam-2);

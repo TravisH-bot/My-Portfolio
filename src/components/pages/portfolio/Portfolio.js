@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Portfolio.css";
-import { JackInTheBox } from "react-awesome-reveal";
+
 import Project from "./Project";
 
 const projects = [
@@ -52,9 +52,7 @@ const Projects = () => {
   return (
     <section className="main-container content">
       <section id="work" className="flexbox-item title">
-        <JackInTheBox triggerOnce>
-          <h2>Portfolio</h2>
-        </JackInTheBox>
+        <motion.h2 animate={{ fontSize: "50px" }}>Projects</motion.h2>
       </section>
 
       <motion.ul

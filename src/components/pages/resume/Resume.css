@@ -1,3 +1,31 @@
 #res-sub {
   padding: 0;
 }
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 160px;
+}
+
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  font-size: 50px;
+  color: var(--darker);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  font-family: var(--font-fam-2);
+}
+
+@media screen and (max-width: 972px) {
+  .main-container {
+    flex-direction: column;
+    margin: auto;
+  }
+  .title {
+    border-right: transparent;
+    border-bottom: solid var(--darker) 4px;
+  }
+}

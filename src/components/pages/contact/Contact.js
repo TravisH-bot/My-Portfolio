@@ -1,4 +1,4 @@
-import { JackInTheBox } from "react-awesome-reveal";
+import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
 import { validateEmail } from "../../../utils/helpers";
@@ -31,9 +31,7 @@ const Contact = () => {
   return (
     <div className="content" id="contact-container">
       <section id="work" className="flexbox-item title">
-        <JackInTheBox triggerOnce>
-          <h2>Contact Me</h2>
-        </JackInTheBox>
+        <motion.h2 animate={{ fontSize: "50px" }}>Contact Me</motion.h2>
       </section>
       <form class="contact-form" ref={form} onSubmit={sendEmail}>
         <div class="mb-3">
@@ -77,7 +75,7 @@ const Contact = () => {
             <textarea class="form-control" id="messageArea" rows="3"></textarea>
           </div>
         </div>
-        <button type="submit" value="Send" class="btn btn-primary">
+        <button id="subBtn" type="submit" value="Send" class="btn btn-primary">
           Submit
         </button>
       </form>

@@ -4,7 +4,42 @@
 }
 
 .contact-form {
+  margin: auto;
+  align-content: center;
+  width: 75%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  font-size: 50px;
+  color: var(--darker);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  font-family: var(--font-fam-2);
+}
+
+#nameInput {
   width: 50%;
+}
+
+#subjectInput {
+  width: 50%;
+}
+
+#emailInput {
+  width: 50%;
+}
+
+#messageArea {
+  width: 50%;
+}
+
+#subBtn {
+  margin-bottom: 10px;
 }
 
 #work {
@@ -12,5 +47,32 @@
   justify-content: space-evenly;
 }
 
-.flexbox-item.title {
+@media screen and (max-width: 974px) {
+  #contact-container {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .title {
+    border-right: transparent;
+    border-bottom: solid var(--darker) 4px;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  #nameInput {
+    width: 100%;
+  }
+
+  #subjectInput {
+    width: 100%;
+  }
+
+  #emailInput {
+    width: 100%;
+  }
+
+  #messageArea {
+    width: 100%;
+  }
 }

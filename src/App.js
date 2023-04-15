@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "./App.css";
 import "./index.css";
+import { AnimatePresence } from "framer-motion";
 import NavBar from "./components/header/Navigation";
 import Hero from "./components/hero/Hero";
 import About from "./components/pages/about/About";
@@ -11,19 +12,20 @@ import Resume from "./components/pages/resume/Resume";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
+  const location = useLocation();
   return (
     <>
-      <Router>
-        <NavBar />
-        <Hero />
-        <Routes>
+      <NavBar />
+      <Hero />
+      <AnimatePresence>
+        <Routes location={location} key={location.key}>
           <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
-        <Footer />
-      </Router>
+      </AnimatePresence>
+      <Footer />
     </>
   );
 };

@@ -79,7 +79,13 @@ const NavBar = () => {
       <Navbar className="sticky bg-blue-gray-50 inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
-            <h2>Travis Hackbarth</h2>
+            <motion.h2
+              initial={{ opacity: 0 }}
+              animate={{ fontSize: "60px", opacity: 1 }}
+              transition={{ delay: 0.5, duration: 1 }}
+            >
+              Travis Hackbarth
+            </motion.h2>
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>

@@ -1,14 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { JackInTheBox, Fade } from "react-awesome-reveal";
 import "./About.css";
 
 const About = () => {
   return (
     <section className="main-container content">
-      <section id="about-me" className="flexbox-item title">
-        <JackInTheBox triggerOnce>
-          <h2>About Me</h2>
-        </JackInTheBox>
+      <section id="work" className="flexbox-item title">
+        <motion.h2 animate={{ fontSize: "50px" }}>About Me</motion.h2>
       </section>
       <section>
         <Fade triggerOnce>

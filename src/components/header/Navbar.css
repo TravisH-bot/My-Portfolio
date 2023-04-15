@@ -1,9 +1,9 @@
-nav h2 {
+/* nav h2 {
   font-size: 60px;
   padding: 0px 25px;
-  /* color: var(--darker); */
+  color: var(--darker);
   text-decoration: none;
-}
+} */
 
 nav a:hover {
   opacity: 1;

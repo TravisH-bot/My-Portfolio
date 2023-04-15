@@ -14,3 +14,14 @@
   width: 200px;
   height: 200px;
 }
+
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  font-size: 50px;
+  color: var(--darker);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  font-family: var(--font-fam-2);
+}

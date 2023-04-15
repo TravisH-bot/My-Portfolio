@@ -1,5 +1,4 @@
-/* Navbar formatting */
-nav {
+/* nav {
   display: flex;
   height: 170px;
   justify-content: space-between;
@@ -8,15 +7,16 @@ nav {
   font-weight: bold;
   font-family: var(--font-fam-2);
   background-color: var(--light);
-}
+} */
 
 nav h2 {
   font-size: 60px;
   padding: 0px 25px;
   color: var(--darker);
+  text-decoration: none;
 }
 
-.nav-ul {
+/* .nav-ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -24,9 +24,9 @@ nav h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+} */
 
-.nav-link {
+/* .nav-ul {
   display: inline-flex;
   flex-wrap: wrap;
   text-align: center;
@@ -34,14 +34,16 @@ nav h2 {
   text-decoration: none;
   opacity: 0.5;
   transition: 0.5s ease-in-out;
-}
+} */
 
-.nav-link:hover {
+nav a:hover {
   opacity: 1;
   border-radius: 10px;
+  background-color: var(--medium);
+  transition: ease-in-out 0.7s;
 }
 
-.nav-link a {
+nav a {
   flex-wrap: wrap;
   display: inline-flex;
   color: var(--darker);
@@ -49,6 +51,11 @@ nav h2 {
 }
 
 nav a.active {
-  color: var(--medium);
+  color: var(--light);
   opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
 }

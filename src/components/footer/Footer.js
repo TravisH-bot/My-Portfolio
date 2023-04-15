@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -55,7 +56,11 @@ const Footer = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2023 Copyright:
-        <a className="text-dark" href="https://github.com/TravisH-bot">
+        <a
+          id="daFeet"
+          className="text-dark"
+          href="https://github.com/TravisH-bot"
+        >
           https://github.com/TravisH-bot
         </a>
       </div>

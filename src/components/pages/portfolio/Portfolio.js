@@ -9,6 +9,7 @@ const projects = [
     title: "Fluffy",
     link: "https://enigmatic-falls-71377.herokuapp.com/",
     classes: "project-main",
+    id: "",
   },
   {
     title: "philanthropic-cocktails",

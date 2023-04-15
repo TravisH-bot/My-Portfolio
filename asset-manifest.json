@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.d5831ec2.css",
-    "main.js": "/My-Portfolio/static/js/main.22e3645f.js",
+    "main.css": "/My-Portfolio/static/css/main.8c24e31b.css",
+    "main.js": "/My-Portfolio/static/js/main.be1732d2.js",
     "static/media/myPC.jpg": "/My-Portfolio/static/media/myPC.68a67eab5d16653d01c3.jpg",
     "static/media/fluffy-2.png": "/My-Portfolio/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
     "static/media/philanthropiccocktails.png": "/My-Portfolio/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
@@ -11,17 +11,18 @@
     "static/media/fa-solid-900.woff2": "/My-Portfolio/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
     "static/media/css-cheatsheet.png": "/My-Portfolio/static/media/css-cheatsheet.4a5c8828c7d499b95119.png",
     "static/media/fa-brands-400.woff2": "/My-Portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/weather.png": "/My-Portfolio/static/media/weather.09fc729b0553ef9cec88.png",
     "static/media/Travis_Hackbarth_Resume_2023-4.pdf": "/My-Portfolio/static/media/Travis_Hackbarth_Resume_2023-4.bd838e9ffe04a953dc0f.pdf",
     "static/media/fa-regular-400.ttf": "/My-Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/fa-regular-400.woff2": "/My-Portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/fa-v4compatibility.ttf": "/My-Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/My-Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/My-Portfolio/index.html",
-    "main.d5831ec2.css.map": "/My-Portfolio/static/css/main.d5831ec2.css.map",
-    "main.22e3645f.js.map": "/My-Portfolio/static/js/main.22e3645f.js.map"
+    "main.8c24e31b.css.map": "/My-Portfolio/static/css/main.8c24e31b.css.map",
+    "main.be1732d2.js.map": "/My-Portfolio/static/js/main.be1732d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5831ec2.css",
-    "static/js/main.22e3645f.js"
+    "static/css/main.8c24e31b.css",
+    "static/js/main.be1732d2.js"
   ]
 }

@@ -32,7 +32,7 @@ nav h2 {
   text-align: center;
   padding: 0px 25px;
   text-decoration: none;
-  /* opacity: 0.5; */
+  opacity: 0.5;
   transition: 0.5s ease-in-out;
 }
 
@@ -46,4 +46,9 @@ nav h2 {
   display: inline-flex;
   color: var(--darker);
   text-decoration: none;
+}
+
+nav a.active {
+  color: var(--medium);
+  opacity: 1;
 }

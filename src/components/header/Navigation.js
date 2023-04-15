@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 import "./Navbar.css";
 
 const NavBar = () => {
@@ -10,45 +11,17 @@ const NavBar = () => {
       </div>
       <ul className="nav-ul">
         <li className="nav-link">
-          <NavLink
-            className={({ isActive }) => {
-              console.log(isActive);
-            }}
-            exact
-            to="/"
-          >
-            About Me
-          </NavLink>
+          <NavLink to="/">About Me</NavLink>
+        </li>
+
+        <li className="nav-link">
+          <NavLink to="/portfolio">Portfolio</NavLink>
         </li>
         <li className="nav-link">
-          <NavLink
-            className={({ isActive }) => {
-              console.log(isActive);
-            }}
-            to="/portfolio"
-          >
-            Portfolio
-          </NavLink>
+          <NavLink to="/contact">Contact Me</NavLink>
         </li>
         <li className="nav-link">
-          <NavLink
-            className={({ isActive }) => {
-              console.log(isActive);
-            }}
-            to="/contact"
-          >
-            Contact Me
-          </NavLink>
-        </li>
-        <li className="nav-link">
-          <NavLink
-            className={({ isActive }) => {
-              console.log(isActive);
-            }}
-            to="/resume"
-          >
-            Resume
-          </NavLink>
+          <NavLink to="/resume">Resume</NavLink>
         </li>
       </ul>
     </nav>

@@ -23,15 +23,15 @@ const projects = [
     id: "htmlcss",
   },
   {
-    title: "PC Building",
-    link: "",
+    title: "Weather Dashboard",
+    link: "https://travish-bot.github.io/challenge-6-weather-dashboard/",
     classes: "project-side",
-    id: "pc",
+    id: "weather",
   },
   {
-    title: "Fluffy",
-    link: "https://enigmatic-falls-71377.herokuapp.com/",
+    title: "PC Building",
     classes: "project-side",
+    id: "pc",
   },
 ];
 

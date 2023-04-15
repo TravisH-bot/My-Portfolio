@@ -17,7 +17,7 @@ function Project(props) {
       variants={item}
       id={props.id || ""} //bulletproofing
     >
-      <a href={props.link} target="_blank">
+      <a href={props.link} target="blank">
         <h3>{props.title}</h3>
       </a>
     </motion.li>

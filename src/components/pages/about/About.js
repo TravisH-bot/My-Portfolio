@@ -1,5 +1,5 @@
 import React from "react";
-import { JackInTheBox } from "react-awesome-reveal";
+import { JackInTheBox, Fade } from "react-awesome-reveal";
 import "./About.css";
 
 const About = () => {
@@ -11,7 +11,9 @@ const About = () => {
         </JackInTheBox>
       </section>
       <section>
-        <div className="photo"></div>
+        <Fade triggerOnce>
+          <div className="photo"></div>
+        </Fade>
       </section>
       <section className="flexbox-item body-content">
         <p>

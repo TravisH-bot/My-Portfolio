@@ -8,7 +8,6 @@
 nav a:hover {
   opacity: 1;
   border-radius: 10px;
-  /* background-color: var(--medium); */
   transition: ease-in-out 0.7s;
 }
 
@@ -27,10 +26,6 @@ nav a.active {
 a {
   text-decoration: none;
   font-size: 30px;
-}
-
-nav {
-  background: linear-gradient(90deg rgb(66, 2, 194) 0%, rgb(0, 78, 194) 100%);
 }
 
 @media screen and (max-width: 960px) {

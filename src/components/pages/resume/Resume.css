@@ -19,6 +19,14 @@
   font-family: var(--font-fam-2);
 }
 
+.front {
+  flex-direction: column;
+}
+
+.back {
+  flex-direction: column;
+}
+
 @media screen and (max-width: 972px) {
   .main-container {
     flex-direction: column;

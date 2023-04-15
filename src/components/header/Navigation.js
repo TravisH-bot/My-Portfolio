@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Navbar.css";
+import {
+  useIsSmall,
+  useIsMedium,
+  useIsLarge,
+  useIsXLarge,
+} from "../../utils/helpers";
 
 import {
   Navbar,
@@ -12,7 +18,6 @@ import {
 
 const NavBar = () => {
   const [openNav, setOpenNav] = React.useState(false);
-  // const [navBar, setNavBar] = useState(false);
 
   React.useEffect(() => {
     window.addEventListener(
@@ -65,14 +70,16 @@ const NavBar = () => {
     </ul>
   );
 
-  // const changeBackground = () => {
-  //   if (window.scrollY >= 109) {
-  //     setNavBar(true);
-  //   } else {
-  //     setNavBar(false);
-  //   }
-  // };
-  // window.addEventListener("scroll", changeBackground);
+  const titleVariants = {
+    initial: {
+      opacity: 0,
+    },
+    visible: {
+      fontSize: "60px",
+      opacity: 1,
+      transition: { delay: 0.5, duration: 1 },
+    },
+  };
 
   return (
     <>
@@ -80,9 +87,9 @@ const NavBar = () => {
         <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
             <motion.h2
-              initial={{ opacity: 0 }}
-              animate={{ fontSize: "60px", opacity: 1 }}
-              transition={{ delay: 0.5, duration: 1 }}
+              variants={titleVariants}
+              initial="initial"
+              animate="visible"
             >
               Travis Hackbarth
             </motion.h2>

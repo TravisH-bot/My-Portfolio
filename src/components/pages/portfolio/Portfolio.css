@@ -37,12 +37,12 @@ h3 {
 .project-main {
   background: url(./images/fluffy-2.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   display: flex;
   flex: 1 4 700px;
   width: 200px;
-  height: 700px;
+  height: 200px;
   justify-content: center;
   align-items: center;
   border: 4px solid var(--darker);
@@ -164,4 +164,18 @@ h3 {
   padding: 15px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    border-right: transparent;
+    border-bottom: solid var(--darker) 4px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main-container {
+    align-items: center;
+    margin: auto;
+  }
 }

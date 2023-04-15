@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Navbar.css";
@@ -12,6 +12,7 @@ import {
 
 const NavBar = () => {
   const [openNav, setOpenNav] = React.useState(false);
+  // const [navBar, setNavBar] = useState(false);
 
   React.useEffect(() => {
     window.addEventListener(
@@ -64,10 +65,19 @@ const NavBar = () => {
     </ul>
   );
 
+  // const changeBackground = () => {
+  //   if (window.scrollY >= 109) {
+  //     setNavBar(true);
+  //   } else {
+  //     setNavBar(false);
+  //   }
+  // };
+  // window.addEventListener("scroll", changeBackground);
+
   return (
     <>
-      <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
-        <div className="flex items-center justify-between text-blue-gray-900">
+      <Navbar className="sticky bg-blue-gray-50 inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+        <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
             <h2>Travis Hackbarth</h2>
           </Typography>

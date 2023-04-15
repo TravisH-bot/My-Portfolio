@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.c4125535.css",
-    "main.js": "/My-Portfolio/static/js/main.b919fde5.js",
+    "main.css": "/My-Portfolio/static/css/main.ab77dfac.css",
+    "main.js": "/My-Portfolio/static/js/main.25174426.js",
     "static/media/myPC.jpg": "/My-Portfolio/static/media/myPC.68a67eab5d16653d01c3.jpg",
     "static/media/fluffy-2.png": "/My-Portfolio/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
     "static/media/philanthropiccocktails.png": "/My-Portfolio/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
@@ -14,15 +14,28 @@
     "static/media/weather.png": "/My-Portfolio/static/media/weather.09fc729b0553ef9cec88.png",
     "static/media/Travis_Hackbarth_Resume_2023-4.pdf": "/My-Portfolio/static/media/Travis_Hackbarth_Resume_2023-4.bd838e9ffe04a953dc0f.pdf",
     "static/media/fa-regular-400.ttf": "/My-Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/physics.png": "/My-Portfolio/static/media/physics.86c8d9eba03e29814d2a.png",
+    "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/mysql.png": "/My-Portfolio/static/media/mysql.4610cbabbff468ff8ae3.png",
     "static/media/fa-regular-400.woff2": "/My-Portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/responsive-design.png": "/My-Portfolio/static/media/responsive-design.187eab262bf0152599e6.png",
+    "static/media/api.png": "/My-Portfolio/static/media/api.b4448407872dc2a02104.png",
+    "static/media/html-5.png": "/My-Portfolio/static/media/html-5.b2db3a7f6897f0a6e75c.png",
+    "static/media/css.png": "/My-Portfolio/static/media/css.d2811e5969760ef58072.png",
+    "static/media/bootstrap.png": "/My-Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/js.png": "/My-Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/fa-v4compatibility.ttf": "/My-Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/My-Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/jquery-icon.svg": "/My-Portfolio/static/media/jquery-icon.3b8ad1b8e0cfd4079e5168f030abf2a5.svg",
+    "static/media/graphql-icon.svg": "/My-Portfolio/static/media/graphql-icon.e335785b409b208e429d32813d4c00a2.svg",
+    "static/media/mongodb-icon.svg": "/My-Portfolio/static/media/mongodb-icon.0781b723446e1f8a1734f7831a9c3313.svg",
     "index.html": "/My-Portfolio/index.html",
-    "main.c4125535.css.map": "/My-Portfolio/static/css/main.c4125535.css.map",
-    "main.b919fde5.js.map": "/My-Portfolio/static/js/main.b919fde5.js.map"
+    "static/media/expressjs-icon.svg": "/My-Portfolio/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "main.ab77dfac.css.map": "/My-Portfolio/static/css/main.ab77dfac.css.map",
+    "main.25174426.js.map": "/My-Portfolio/static/js/main.25174426.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4125535.css",
-    "static/js/main.b919fde5.js"
+    "static/css/main.ab77dfac.css",
+    "static/js/main.25174426.js"
   ]
 }

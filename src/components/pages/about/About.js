@@ -39,6 +39,14 @@ const About = () => {
           veritatis beatae magni voluptate doloremque officia vel modi quam
           repellendus omnis cumque suscipit?
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae amet
+          quam nulla, perferendis nisi provident eum consequuntur iure, deleniti
+          porro quibusdam consectetur eveniet dolor deserunt. Error placeat
+          laudantium tempore sapiente eum nam dolores id delectus natus commodi,
+          veritatis beatae magni voluptate doloremque officia vel modi quam
+          repellendus omnis cumque suscipit?
+        </p>
       </section>
     </section>
   );

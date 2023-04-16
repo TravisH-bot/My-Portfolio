@@ -11,10 +11,21 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 
 p {
   color: var(--dark);
+  font-size: 30px;
+}
+
+@media screen and (max-width: 972px) {
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+  p {
+    font-size: 18px;
+  }
 }

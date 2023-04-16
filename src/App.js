@@ -10,20 +10,12 @@ import Portfolio from "./components/pages/portfolio/Portfolio";
 import Contact from "./components/pages/contact/Contact";
 import Resume from "./components/pages/resume/Resume";
 import Footer from "./components/footer/Footer";
-import useColorMode from "./hooks/useColorMode";
 
 const App = () => {
   const location = useLocation();
-  const [colorMode, setColorMode] = useColorMode();
 
   return (
-    <div className="bg-white dark:bg-black">
-      {/* <button
-        onClick={() => setColorMode(colorMode === "light" ? "dark" : "light")}
-        className="bg-gray-500 dark:bg-green text-black dark:text-white"
-      >
-        Click
-      </button> */}
+    <>
       <NavBar />
       <Hero />
       <AnimatePresence>
@@ -35,7 +27,7 @@ const App = () => {
         </Routes>
       </AnimatePresence>
       <Footer />
-    </div>
+    </>
   );
 };
 

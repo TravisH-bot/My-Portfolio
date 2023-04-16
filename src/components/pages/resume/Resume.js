@@ -34,7 +34,7 @@ const Resume = () => {
         <motion.h2 animate={{ fontSize: "50px" }}>Resume</motion.h2>
       </section>
       <section className="flexbox-item body-content">
-        <h2 class="text-4xl"> Proficiencies</h2>
+        <h2 className="text-4xl"> Proficiencies</h2>
         <h3>
           Download my resume{" "}
           <a href={pdf} target="blank" download={pdf}>
@@ -44,56 +44,78 @@ const Resume = () => {
           </a>
         </h3>
 
-        <h2 class="text-3xl">Front-end Proficiencies</h2>
-        <div>
-          <ul className="front">
-            <motion.li whileHover={iconEffects}>
+        <h2 className="text-3xl">Front-end Proficiencies</h2>
+        <div className="grid grid-cols-4 gap-4 front">
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={html5} style={iconVariants}></img>HTML
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={css} style={iconVariants}></img>CSS
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={js} style={iconVariants}></img>JavaScript
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={jqueryIcon} style={iconVariants}></img>jQuery
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={responsive} style={iconVariants}></img>responsive design
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={physics} style={iconVariants}></img>
               React
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={bootstrap} style={iconVariants}></img>Bootstrap
-            </motion.li>
-          </ul>
+            </motion.p>
+          </div>
         </div>
-        <h2 class="text-3xl">Back-end Proficiencies</h2>
-        <div>
-          <ul className="back">
-            <motion.li whileHover={iconEffects}>
+        <h2 className="text-3xl">Back-end Proficiencies</h2>
+        <div className="grid grid-cols-4 gap-4 back">
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={api} style={iconVariants}></img>APIs
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={nodejs} style={iconVariants}></img>Node
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={expressjsIcon} style={iconVariants}></img>Express
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
-              <img src={mysql} style={iconVariants}></img>MySQL, Sequeize
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
+              <img src={mysql} style={iconVariants}></img>MySQL, Sequelize
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={mongodbIcon} style={iconVariants}></img>MongoDB,
               Mongoose
-            </motion.li>
-            <motion.li whileHover={iconEffects}>
+            </motion.p>
+          </div>
+          <div>
+            <motion.p whileHover={iconEffects}>
               <img src={graphqlIcon} style={iconVariants}></img>GraphQL
-            </motion.li>
-          </ul>
+            </motion.p>
+          </div>
         </div>
       </section>
     </section>

@@ -25,5 +25,8 @@ body {
 
 .content {
   min-height: 54vh;
-  background-color: var();
+}
+
+.dark {
+  background-color: black;
 }

@@ -14,7 +14,7 @@ nav a:hover {
 nav a {
   flex-wrap: wrap;
   display: inline-flex;
-  color: var(--darker);
+  color: var(--dark);
   text-decoration: none;
 }
 

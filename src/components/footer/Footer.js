@@ -7,16 +7,16 @@ const Footer = () => {
     <MDBFooter
       id="footer"
       className="text-center text-white"
-      style={{ backgroundColor: "#f1f1f1" }}
+      style={{ backgroundColor: "black" }}
     >
       <MDBContainer className="pt-4">
         <section className="mb-4">
           <MDBBtn
-            rippleColor="dark"
+            rippleColor="light"
             color="link"
             floating
             size="lg"
-            className="text-dark m-1"
+            className="text-light m-1"
             href="#!"
             role="button"
           >
@@ -24,11 +24,11 @@ const Footer = () => {
           </MDBBtn>
 
           <MDBBtn
-            rippleColor="dark"
+            rippleColor="light"
             color="link"
             floating
             size="lg"
-            className="text-dark m-1"
+            className="text-light m-1"
             href="https://www.linkedin.com/in/thackbarth"
             target="blank"
             role="button"
@@ -37,11 +37,11 @@ const Footer = () => {
           </MDBBtn>
 
           <MDBBtn
-            rippleColor="dark"
+            rippleColor="light"
             color="link"
             floating
             size="lg"
-            className="text-dark m-1"
+            className="text-light m-1"
             href="https://github.com/TravisH-bot"
             target="blank"
             role="button"
@@ -52,13 +52,13 @@ const Footer = () => {
       </MDBContainer>
 
       <div
-        className="text-center text-dark p-3"
+        className="text-center text-light p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         © 2023 Copyright:
         <a
           id="daFeet"
-          className="text-dark"
+          className="text-light"
           href="https://github.com/TravisH-bot"
         >
           https://github.com/TravisH-bot

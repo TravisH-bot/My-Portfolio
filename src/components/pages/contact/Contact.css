@@ -47,6 +47,10 @@
   justify-content: space-evenly;
 }
 
+.form-label {
+  color: var(--dark);
+}
+
 @media screen and (max-width: 974px) {
   #contact-container {
     flex-direction: column;

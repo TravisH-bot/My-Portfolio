@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.ab77dfac.css",
-    "main.js": "/My-Portfolio/static/js/main.25174426.js",
+    "main.css": "/My-Portfolio/static/css/main.f660b1c1.css",
+    "main.js": "/My-Portfolio/static/js/main.663bd0f6.js",
     "static/media/myPC.jpg": "/My-Portfolio/static/media/myPC.68a67eab5d16653d01c3.jpg",
     "static/media/fluffy-2.png": "/My-Portfolio/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
     "static/media/philanthropiccocktails.png": "/My-Portfolio/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
@@ -29,13 +29,13 @@
     "static/media/jquery-icon.svg": "/My-Portfolio/static/media/jquery-icon.3b8ad1b8e0cfd4079e5168f030abf2a5.svg",
     "static/media/graphql-icon.svg": "/My-Portfolio/static/media/graphql-icon.e335785b409b208e429d32813d4c00a2.svg",
     "static/media/mongodb-icon.svg": "/My-Portfolio/static/media/mongodb-icon.0781b723446e1f8a1734f7831a9c3313.svg",
-    "index.html": "/My-Portfolio/index.html",
     "static/media/expressjs-icon.svg": "/My-Portfolio/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
-    "main.ab77dfac.css.map": "/My-Portfolio/static/css/main.ab77dfac.css.map",
-    "main.25174426.js.map": "/My-Portfolio/static/js/main.25174426.js.map"
+    "index.html": "/My-Portfolio/index.html",
+    "main.f660b1c1.css.map": "/My-Portfolio/static/css/main.f660b1c1.css.map",
+    "main.663bd0f6.js.map": "/My-Portfolio/static/js/main.663bd0f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab77dfac.css",
-    "static/js/main.25174426.js"
+    "static/css/main.f660b1c1.css",
+    "static/js/main.663bd0f6.js"
   ]
 }

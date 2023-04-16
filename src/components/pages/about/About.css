@@ -6,6 +6,7 @@
 }
 
 .photo {
+  margin-top: 16px;
   border: solid 4px var(--dark);
   background: url(./images/me.png);
   background-position: center;

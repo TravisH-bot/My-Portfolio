@@ -9,7 +9,6 @@ import {
   MobileNav,
   Typography,
   IconButton,
-  Button,
 } from "@material-tailwind/react";
 import useColorMode from "../../hooks/useColorMode.js";
 
@@ -104,7 +103,7 @@ const NavBar = () => {
             </motion.h2>
           </Typography>
           <div className="flex items-center gap-4">
-            <MDBIcon fas icon="sun" />
+            <MDBIcon fas icon="moon" />
             <Switch
               onClick={() =>
                 setColorMode(colorMode === "light" ? "dark" : "light")
@@ -113,7 +112,7 @@ const NavBar = () => {
               size="sm"
               className="hidden sm:inline-block"
             />
-            <MDBIcon far icon="moon" />
+            <MDBIcon far icon="sun" />
 
             <div className="mr-4 hidden lg:block">{navList}</div>
 
@@ -127,7 +126,7 @@ const NavBar = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
-                  className="h-6 w-6"
+                  className="h-7 w-7"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth={2}
@@ -141,7 +140,7 @@ const NavBar = () => {
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="h-7 w-7"
                   fill="none"
                   stroke="currentColor"
                   strokeWidth={2}

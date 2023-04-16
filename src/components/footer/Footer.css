@@ -10,9 +10,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(
-    rgb(0, 0, 0),
-    rgb(11, rgb(13, 13, 26) 11),
-    rgb(1, 1, 17)
-  );
 }

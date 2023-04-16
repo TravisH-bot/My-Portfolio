@@ -31,7 +31,9 @@ const Contact = () => {
   return (
     <div className="content" id="contact-container">
       <section id="work" className="flexbox-item title">
-        <motion.h2 animate={{ fontSize: "50px" }}>Contact Me</motion.h2>
+        <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
+          Contact Me
+        </motion.h2>
       </section>
       <form class="contact-form" ref={form} onSubmit={sendEmail}>
         <div class="mb-3">

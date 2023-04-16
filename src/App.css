@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: var(--font-fam-1);
 }
 
 :root {
@@ -11,13 +12,12 @@
   --light: #ffb703;
   --medium: #219ebc;
   --dark: #4484ce;
-  --darker: #023047;
+  --darker: #4484ce;
   --font-fam-1: "Bitter", serif;
   --font-fam-2: "Questrial", sans-serif;
 }
 
 body {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,4 +29,20 @@ body {
 
 .dark {
   background-color: black;
+  color: var(--dark);
+}
+
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  font-size: 50px;
+  color: var(--dark);
+  text-shadow: 1px 1px 1px rgb(22, 22, 22);
+  font-family: var(--font-fam-2);
+}
+
+.sideTitle {
+  color: var(--dark);
 }

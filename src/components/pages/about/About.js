@@ -7,12 +7,21 @@ const About = () => {
   return (
     <section className="main-container content">
       <section id="work" className="flexbox-item title">
-        <motion.h2 animate={{ fontSize: "50px" }}>About Me</motion.h2>
+        <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
+          About Me
+        </motion.h2>
       </section>
       <section>
-        <Fade triggerOnce>
-          <div className="photo"></div>
-        </Fade>
+        <motion.div
+          className="photo rounded-2"
+          initial={{ scale: 0 }}
+          animate={{ rotate: 360, scale: 1 }}
+          transition={{
+            type: "spring",
+            stiffness: 270,
+            damping: 15,
+          }}
+        />
       </section>
       <section className="flexbox-item body-content">
         <p>

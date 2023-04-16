@@ -12,7 +12,7 @@ const projects = [
     id: "",
   },
   {
-    title: "philanthropic-cocktails",
+    title: "Philanthropic Cocktails",
     link: "https://gharrison307.github.io/philanthropic-cocktails/",
     classes: "project-side",
     id: "philanthropic-cocktails",
@@ -52,7 +52,9 @@ const Projects = () => {
   return (
     <section className="main-container content">
       <section id="work" className="flexbox-item title">
-        <motion.h2 animate={{ fontSize: "50px" }}>Projects</motion.h2>
+        <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
+          Projects
+        </motion.h2>
       </section>
 
       <motion.ul

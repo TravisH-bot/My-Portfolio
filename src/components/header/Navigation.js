@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { MDBIcon } from "mdb-react-ui-kit";
 import { motion } from "framer-motion";
+import { Switch } from "@material-tailwind/react";
 import "./Navbar.css";
-import {
-  useIsSmall,
-  useIsMedium,
-  useIsLarge,
-  useIsXLarge,
-} from "../../utils/helpers";
 import {
   Navbar,
   MobileNav,
@@ -83,7 +79,7 @@ const NavBar = () => {
   };
 
   if (window.innerWidth < 480) {
-    titleVariants.visible.fontSize = "20px";
+    titleVariants.visible.fontSize = "25px";
   } else if (window.innerWidth < 768) {
     titleVariants.visible.fontSize = "30px";
   } else if (window.innerWidth < 976) {
@@ -96,7 +92,7 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar className="sticky bg-gray-900 inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="sticky bg-gray-50 dark:bg-gray-900 inset-0 z-10 h-max max-w-full rounded-2 py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
             <motion.h2
@@ -108,18 +104,18 @@ const NavBar = () => {
             </motion.h2>
           </Typography>
           <div className="flex items-center gap-4">
-            <div className="mr-4 hidden lg:block">{navList}</div>
-
-            <Button
+            <MDBIcon fas icon="sun" />
+            <Switch
               onClick={() =>
                 setColorMode(colorMode === "light" ? "dark" : "light")
               }
               variant="gradient"
               size="sm"
-              className="hidden lg:inline-block"
-            >
-              <span>Dark/Light Mode</span>
-            </Button>
+              className="hidden sm:inline-block"
+            />
+            <MDBIcon far icon="moon" />
+
+            <div className="mr-4 hidden lg:block">{navList}</div>
 
             <IconButton
               variant="text"
@@ -160,20 +156,7 @@ const NavBar = () => {
             </IconButton>
           </div>
         </div>
-        <MobileNav open={openNav}>
-          {navList}
-          <Button
-            onClick={() =>
-              setColorMode(colorMode === "light" ? "dark" : "light")
-            }
-            variant="gradient"
-            size="sm"
-            fullWidth
-            className="mb-2"
-          >
-            <span>Dark/Light Mode</span>
-          </Button>
-        </MobileNav>
+        <MobileNav open={openNav}>{navList}</MobileNav>
       </Navbar>
     </>
   );

@@ -1,70 +1,47 @@
 import React from "react";
 import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
+import { Typography } from "@material-tailwind/react";
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <MDBFooter
-      id="footer"
-      className="text-center text-white"
-      style={{ backgroundColor: "black" }}
-    >
-      <MDBContainer className="pt-4">
-        <section className="mb-4">
-          <MDBBtn
-            rippleColor="light"
-            color="link"
-            floating
-            size="lg"
-            className="text-light m-1"
-            href="#!"
-            role="button"
-          >
-            <MDBIcon fab className="fa-twitter" />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="light"
-            color="link"
-            floating
-            size="lg"
-            className="text-light m-1"
-            href="https://www.linkedin.com/in/thackbarth"
-            target="blank"
-            role="button"
-          >
-            <MDBIcon fab className="fa-linkedin" />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="light"
-            color="link"
-            floating
-            size="lg"
-            className="text-light m-1"
+    <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-center rounded-2 bg-gray-50 dark:bg-gray-900">
+      <Typography color="blue-gray" className="font-normal"></Typography>
+      <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
+        <li>
+          <Typography
+            as="a"
             href="https://github.com/TravisH-bot"
             target="blank"
-            role="button"
+            color="blue-gray"
+            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 dark:text-white fs-2 text"
           >
-            <MDBIcon fab className="fa-github" />
-          </MDBBtn>
-        </section>
-      </MDBContainer>
-
-      <div
-        className="text-center text-light p-3"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-      >
-        © 2023 Copyright:
-        <a
-          id="daFeet"
-          className="text-light"
-          href="https://github.com/TravisH-bot"
-        >
-          https://github.com/TravisH-bot
-        </a>
-      </div>
-    </MDBFooter>
+            <MDBIcon fab icon="github" />
+          </Typography>
+        </li>
+        <li>
+          <Typography
+            as="a"
+            href="#"
+            color="blue-gray"
+            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 dark:text-white fs-2 text"
+          >
+            <MDBIcon fab icon="twitter" />
+          </Typography>
+        </li>
+        <li>
+          <Typography
+            as="a"
+            href="https://www.linkedin.com/in/thackbarth"
+            target="blank"
+            color="blue-gray"
+            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 dark:text-white fs-2 text"
+          >
+            <MDBIcon fab icon="linkedin" />
+          </Typography>
+        </li>
+      </ul>
+    </footer>
   );
 };
 

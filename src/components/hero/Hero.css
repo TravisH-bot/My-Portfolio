@@ -10,3 +10,9 @@ section.hero {
   border: solid 5px var(--dark);
   height: 250px;
 }
+
+@media screen and (max-width: 974px) {
+  .hero {
+    height: 100px;
+  }
+}

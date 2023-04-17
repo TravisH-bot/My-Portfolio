@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.d6602a8e.css",
-    "main.js": "/My-Portfolio/static/js/main.ac3b75d9.js",
-    "static/media/myPC.jpg": "/My-Portfolio/static/media/myPC.68a67eab5d16653d01c3.jpg",
+    "main.css": "/My-Portfolio/static/css/main.814c8d0b.css",
+    "main.js": "/My-Portfolio/static/js/main.47a607bf.js",
     "static/media/fluffy-2.png": "/My-Portfolio/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
     "static/media/philanthropiccocktails.png": "/My-Portfolio/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
     "static/media/fa-solid-900.ttf": "/My-Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -13,7 +12,9 @@
     "static/media/fa-brands-400.woff2": "/My-Portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/weather.png": "/My-Portfolio/static/media/weather.09fc729b0553ef9cec88.png",
     "static/media/Travis_Hackbarth_Resume_2023-4.pdf": "/My-Portfolio/static/media/Travis_Hackbarth_Resume_2023-4.bd838e9ffe04a953dc0f.pdf",
+    "static/media/techBlog.png": "/My-Portfolio/static/media/techBlog.a8dce8b28c9aa7eef366.png",
     "static/media/fa-regular-400.ttf": "/My-Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/notes4.png": "/My-Portfolio/static/media/notes4.583425c53e616df44a09.png",
     "static/media/physics.png": "/My-Portfolio/static/media/physics.86c8d9eba03e29814d2a.png",
     "static/media/nodejs.png": "/My-Portfolio/static/media/nodejs.007e99f68b718e476aba.png",
     "static/media/mysql.png": "/My-Portfolio/static/media/mysql.4610cbabbff468ff8ae3.png",
@@ -31,11 +32,11 @@
     "static/media/mongodb-icon.svg": "/My-Portfolio/static/media/mongodb-icon.0781b723446e1f8a1734f7831a9c3313.svg",
     "static/media/expressjs-icon.svg": "/My-Portfolio/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "index.html": "/My-Portfolio/index.html",
-    "main.d6602a8e.css.map": "/My-Portfolio/static/css/main.d6602a8e.css.map",
-    "main.ac3b75d9.js.map": "/My-Portfolio/static/js/main.ac3b75d9.js.map"
+    "main.814c8d0b.css.map": "/My-Portfolio/static/css/main.814c8d0b.css.map",
+    "main.47a607bf.js.map": "/My-Portfolio/static/js/main.47a607bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6602a8e.css",
-    "static/js/main.ac3b75d9.js"
+    "static/css/main.814c8d0b.css",
+    "static/js/main.47a607bf.js"
   ]
 }

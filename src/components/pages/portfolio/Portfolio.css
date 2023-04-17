@@ -105,8 +105,8 @@ h3 {
   background-size: cover;
 }
 
-#pc {
-  background: url(./images/myPC.jpg);
+#note {
+  background: url(./images/notes4.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,6 +114,13 @@ h3 {
 
 #weather {
   background: url(./images/weather.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tech {
+  background: url(./images/techBlog.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

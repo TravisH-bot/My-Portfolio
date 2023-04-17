@@ -40,7 +40,7 @@ const Resume = () => {
         <h3>
           Download my resume{" "}
           <a href={pdf} target="blank" download={pdf}>
-            <Button id="res-sub" variant="primary">
+            <Button id="res-sub" variant="warning">
               Download PDF
             </Button>
           </a>

@@ -30,9 +30,16 @@ const projects = [
     id: "weather",
   },
   {
-    title: "PC Building",
+    title: "Note Taker",
     classes: "project-side",
-    id: "pc",
+    link: "https://quiet-meadow-62844.herokuapp.com/notes",
+    id: "note",
+  },
+  {
+    title: "Tech Blog",
+    classes: "project-side",
+    link: "https://sleepy-shelf-46317.herokuapp.com/",
+    id: "tech",
   },
 ];
 

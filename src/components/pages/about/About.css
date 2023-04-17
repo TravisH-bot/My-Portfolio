@@ -5,6 +5,10 @@
   font-size: 16px;
 }
 
+.aboutContent {
+  display: flex;
+}
+
 .photo {
   margin-top: 16px;
   border: solid 4px var(--dark);

@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation, HashRouter } from "react-router-dom";
 import "./App.css";
 import "./index.css";
 import { AnimatePresence } from "framer-motion";
@@ -20,10 +20,10 @@ const App = () => {
       <Hero />
       <AnimatePresence>
         <Routes location={location} key={location.key}>
+          <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/*" element={<About />} />
         </Routes>
       </AnimatePresence>
       <Footer />

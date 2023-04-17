@@ -46,3 +46,9 @@ body {
 .sideTitle {
   color: var(--dark);
 }
+
+@media screen and (max-width: 974px) {
+  .sideTitle {
+    font-size: 25px;
+  }
+}

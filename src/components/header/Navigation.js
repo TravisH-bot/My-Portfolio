@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { MDBIcon } from "mdb-react-ui-kit";
 import { motion } from "framer-motion";
@@ -13,14 +13,45 @@ import {
 import useColorMode from "../../hooks/useColorMode.js";
 
 const NavBar = () => {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [openNav, setOpenNav] = useState(false);
 
-  React.useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    );
+  const [titleVariants, setTitleVariants] = useState({
+    initial: {
+      opacity: 0,
+    },
+    visible: {
+      fontSize: "60px",
+      opacity: 1,
+      transition: { delay: 0.5, duration: 1 },
+    },
+  });
+
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      window.innerWidth >= 960 && setOpenNav(false);
+      setWidth(window.innerWidth);
+    });
   }, []);
+
+  useEffect(() => {
+    const currentTitleVariants = { ...titleVariants };
+    if (width < 480) {
+      currentTitleVariants.visible.fontSize = "25px";
+    } else if (width < 768) {
+      currentTitleVariants.visible.fontSize = "30px";
+    } else if (width < 976) {
+      currentTitleVariants.visible.fontSize = "45px";
+    } else {
+      currentTitleVariants.visible.fontSize = "60px";
+    }
+    setTitleVariants(currentTitleVariants);
+  }, [width]);
+
+  const navLinkCLick = (e) => {
+    setOpenNav(false);
+  };
 
   const navList = (
     <ul
@@ -34,7 +65,9 @@ const NavBar = () => {
         textGradient
         className="p-3 font-normal"
       >
-        <NavLink to="/">About Me</NavLink>
+        <NavLink onClick={navLinkCLick} to="/">
+          About Me
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -43,7 +76,9 @@ const NavBar = () => {
         textGradient
         className="p-3 font-normal"
       >
-        <NavLink to="/portfolio">Portfolio</NavLink>
+        <NavLink onClick={navLinkCLick} to="/portfolio">
+          Portfolio
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -52,7 +87,9 @@ const NavBar = () => {
         textGradient
         className="p-3 font-normal"
       >
-        <NavLink to="/contact">Contact Me</NavLink>
+        <NavLink onClick={navLinkCLick} to="/contact">
+          Contact Me
+        </NavLink>
       </Typography>
       <Typography
         as="li"
@@ -61,31 +98,33 @@ const NavBar = () => {
         textGradient
         className="p-3 font-normal"
       >
-        <NavLink to="/resume">Resume</NavLink>
+        <NavLink onClick={navLinkCLick} to="/resume">
+          Resume
+        </NavLink>
       </Typography>
     </ul>
   );
 
-  const titleVariants = {
-    initial: {
-      opacity: 0,
-    },
-    visible: {
-      fontSize: "60px",
-      opacity: 1,
-      transition: { delay: 0.5, duration: 1 },
-    },
-  };
+  // const titleVariants = {
+  //   initial: {
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     fontSize: "60px",
+  //     opacity: 1,
+  //     transition: { delay: 0.5, duration: 1 },
+  //   },
+  // };
 
-  if (window.innerWidth < 480) {
-    titleVariants.visible.fontSize = "25px";
-  } else if (window.innerWidth < 768) {
-    titleVariants.visible.fontSize = "30px";
-  } else if (window.innerWidth < 976) {
-    titleVariants.visible.fontSize = "45px";
-  } else {
-    titleVariants.visible.fontSize = "60px";
-  }
+  // if (window.innerWidth < 480) {
+  //   titleVariants.visible.fontSize = "25px";
+  // } else if (window.innerWidth < 768) {
+  //   titleVariants.visible.fontSize = "30px";
+  // } else if (window.innerWidth < 976) {
+  //   titleVariants.visible.fontSize = "45px";
+  // } else {
+  //   titleVariants.visible.fontSize = "60px";
+  // }
 
   const [colorMode, setColorMode] = useColorMode();
 
@@ -108,6 +147,7 @@ const NavBar = () => {
               onClick={() =>
                 setColorMode(colorMode === "light" ? "dark" : "light")
               }
+              defaultChecked={colorMode === "light" ? true : false}
               variant="gradient"
               size="sm"
               className="hidden sm:inline-block"

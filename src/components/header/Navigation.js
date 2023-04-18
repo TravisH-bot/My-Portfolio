@@ -105,27 +105,6 @@ const NavBar = () => {
     </ul>
   );
 
-  // const titleVariants = {
-  //   initial: {
-  //     opacity: 0,
-  //   },
-  //   visible: {
-  //     fontSize: "60px",
-  //     opacity: 1,
-  //     transition: { delay: 0.5, duration: 1 },
-  //   },
-  // };
-
-  // if (window.innerWidth < 480) {
-  //   titleVariants.visible.fontSize = "25px";
-  // } else if (window.innerWidth < 768) {
-  //   titleVariants.visible.fontSize = "30px";
-  // } else if (window.innerWidth < 976) {
-  //   titleVariants.visible.fontSize = "45px";
-  // } else {
-  //   titleVariants.visible.fontSize = "60px";
-  // }
-
   const [colorMode, setColorMode] = useColorMode();
 
   return (

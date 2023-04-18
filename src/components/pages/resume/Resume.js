@@ -36,8 +36,7 @@ const Resume = () => {
         </motion.h2>
       </section>
       <section className="flexbox-item body-content">
-        <h2 className="text-4xl">Proficiencies</h2>
-        <h3>
+        <h3 id="resumeDL">
           Download my resume{" "}
           <a href={pdf} target="blank" download={pdf}>
             <Button id="res-sub" variant="warning">
@@ -45,6 +44,7 @@ const Resume = () => {
             </Button>
           </a>
         </h3>
+        <h2 className="text-4xl">Skills</h2>
 
         <h2 className="text-3xl drop-shadow-2xl">Front-end</h2>
         <div className="grid grid-cols-4 gap-4 front">

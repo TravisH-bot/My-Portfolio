@@ -18,9 +18,9 @@ My portfolio, using ReactJS, displays a bit about myself, my past projects, my s
 
 7. The site is also mobile responsive.
 
-You can visit the deployed website [here](https://travish-bot.github.io/My-Portfolio-2/)
+You can visit the deployed website [here](https://travish-bot.github.io/My-Portfolio/)
 
-![screenshot](./images/my-portfolio.png)
+![screenshot](./images/my-portfolio-2.png)
 
 ## Installation
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { JackInTheBox, Fade } from "react-awesome-reveal";
 import "./About.css";
 
 const About = () => {

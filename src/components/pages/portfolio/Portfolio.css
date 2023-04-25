@@ -36,6 +36,7 @@
 h3 {
   font-family: var(--font-fam-2);
   background-color: var(--darker);
+  border-radius: 10px;
   color: var(--extra-light);
   padding: 8px;
   position: relative;
@@ -43,7 +44,7 @@ h3 {
 
 /* Main formatting for current work image */
 .project-main {
-  background: url(./images/fluffy-2.png);
+  background: url(./images/kitchen.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -90,6 +91,13 @@ h3 {
 }
 
 /* Background images for side projects */
+
+#fluffy {
+  background: url(./images/fluffy-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #philanthropic-cocktails {
   background: url(./images/philanthropiccocktails.png);

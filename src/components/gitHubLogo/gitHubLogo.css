@@ -1,0 +1,43 @@
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+}
+
+#light > #lightEllipse {
+  fill: var(--light-color);
+}
+#light > #vectorOne {
+  fill: var(--dark-color);
+}
+
+#dark > #darkEllipse {
+  fill: var(--light-color);
+}
+#dark > #vectorTwo {
+  fill: var(--dark-color);
+}
+
+#light > #lightEllipse,
+#light > #vectorOne,
+#dark > #darkEllipse,
+#dark > #vectorTwo {
+  transition: all 0.5s ease;
+}
+
+#light > #lightEllipse,
+#light > #vectorOne {
+  transform: translateX(-100%);
+}
+
+svg:hover #light > #lightEllipse,
+#light > #vectorOne {
+  transform: translateX(0%);
+}
+svg:hover #dark > #darkEllipse,
+#dark > #vectorTwo {
+  transform: translateX(40%);
+  opacity: 0;
+}
+
+.logo {
+}

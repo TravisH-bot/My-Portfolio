@@ -1,31 +1,43 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Portfolio.css";
+import "../../gitHubLogo/gitHubLogo.css";
 
 import Project from "./Project";
 
 const projects = [
   {
-    title: "Fluffy",
-    link: "https://enigmatic-falls-71377.herokuapp.com/",
+    title: "The Kitchen",
+    link: "https://gentle-shelf-99079.herokuapp.com/",
+    linkTwo: "https://github.com/TravisH-bot/the-kitchen",
     classes: "project-main",
     id: "",
   },
   {
+    title: "Fluffy",
+    link: "https://enigmatic-falls-71377.herokuapp.com/",
+    linkTwo: "https://github.com/TravisH-bot/CloudMinnow",
+    classes: "project-side",
+    id: "fluffy",
+  },
+  {
     title: "Philanthropic Cocktails",
     link: "https://gharrison307.github.io/philanthropic-cocktails/",
+    linkTwo: "https://github.com/TravisH-bot/philanthropic-cocktails",
     classes: "project-side",
     id: "philanthropic-cocktails",
   },
   {
     title: "HTML/CSS Effects",
     link: "https://travish-bot.github.io/CSS-snippet-cheatsheet/",
+    linkTwo: "https://github.com/TravisH-bot/CSS-snippet-cheatsheet",
     classes: "project-side",
     id: "htmlcss",
   },
   {
     title: "Weather Dashboard",
     link: "https://travish-bot.github.io/challenge-6-weather-dashboard/",
+    linkTwo: "https://github.com/TravisH-bot/challenge-6-weather-dashboard",
     classes: "project-side",
     id: "weather",
   },
@@ -33,12 +45,14 @@ const projects = [
     title: "Note Taker",
     classes: "project-side",
     link: "https://quiet-meadow-62844.herokuapp.com/notes",
+    linkTwo: "https://github.com/TravisH-bot/Note-Taker",
     id: "note",
   },
   {
     title: "Tech Blog",
     classes: "project-side",
     link: "https://sleepy-shelf-46317.herokuapp.com/",
+    linkTwo: "https://github.com/TravisH-bot/Tech-Blog",
     id: "tech",
   },
 ];
@@ -75,6 +89,7 @@ const Projects = () => {
             i={i}
             classes={obj.classes}
             link={obj.link}
+            linkTwo={obj.linkTwo}
             title={obj.title}
             id={obj.id}
           />

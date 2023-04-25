@@ -30,6 +30,15 @@ function Project(props) {
       </a>
       <button className="logo">
         <a href={props.linkTwo} target="_blank">
+          <div id="repo">
+            <h5
+              id="repoTitle"
+              className="text-center font-bold text-light-blue-200
+             text-3xl "
+            >
+              Repo
+            </h5>
+          </div>
           <svg width="60" height="60" viewBox="0 0 90 60" fill="none">
             <g id="github-logo-svgrepo-com 1">
               <g id="SVGRepo_iconCarrier">

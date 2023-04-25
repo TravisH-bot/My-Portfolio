@@ -113,8 +113,8 @@ h3 {
   background-size: cover;
 }
 
-#note {
-  background: url(./images/notes4.png);
+#svg {
+  background: url(./images/svg4.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,8 +127,8 @@ h3 {
   background-size: cover;
 }
 
-#tech {
-  background: url(./images/techBlog.png);
+#wordDay {
+  background: url(./images/workDay.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

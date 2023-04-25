@@ -42,18 +42,18 @@ const projects = [
     id: "weather",
   },
   {
-    title: "Note Taker",
+    title: "SVG Logo Generator",
     classes: "project-side",
-    link: "https://quiet-meadow-62844.herokuapp.com/notes",
-    linkTwo: "https://github.com/TravisH-bot/Note-Taker",
-    id: "note",
+    link: "https://github.com/TravisH-bot/SVG-Logo-Generator",
+    linkTwo: "https://github.com/TravisH-bot/SVG-Logo-Generator",
+    id: "svg",
   },
   {
-    title: "Tech Blog",
+    title: "Work Day Scheduler",
     classes: "project-side",
-    link: "https://sleepy-shelf-46317.herokuapp.com/",
-    linkTwo: "https://github.com/TravisH-bot/Tech-Blog",
-    id: "tech",
+    link: "https://travish-bot.github.io/challenge-5-work-day-scheduler/",
+    linkTwo: "https://github.com/TravisH-bot/challenge-5-work-day-scheduler",
+    id: "wordDay",
   },
 ];
 

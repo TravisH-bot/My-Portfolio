@@ -39,5 +39,26 @@ svg:hover #dark > #darkEllipse,
   opacity: 0;
 }
 
+#repo {
+  width: 60px;
+}
+
+#repoTitle {
+  margin: -10px;
+  background-color: #4484ce;
+  border-radius: 5px;
+}
+
 .logo {
+  margin-bottom: -48px;
+}
+
+@media screen and (max-width: 820px) {
+  #dark {
+    opacity: 0;
+  }
+  #light > #lightEllipse,
+  #light > #vectorOne {
+    transform: translateX(0%);
+  }
 }

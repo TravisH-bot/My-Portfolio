@@ -7,11 +7,18 @@ import Project from "./Project";
 
 const projects = [
   {
+    title: "CRWN Clothing",
+    link: "https://main--stupendous-chebakia-41bda3.netlify.app/",
+    linkTwo: "https://github.com/TravisH-bot/Crown-Clothing",
+    classes: "project-main",
+    id: "",
+  },
+  {
     title: "The Kitchen",
     link: "https://gentle-shelf-99079.herokuapp.com/",
     linkTwo: "https://github.com/TravisH-bot/the-kitchen",
-    classes: "project-main",
-    id: "",
+    classes: "project-side",
+    id: "kitchen",
   },
   {
     title: "Fluffy",

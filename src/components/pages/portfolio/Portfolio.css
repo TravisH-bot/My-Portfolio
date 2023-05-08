@@ -44,7 +44,7 @@ h3 {
 
 /* Main formatting for current work image */
 .project-main {
-  background: url(./images/kitchen.png);
+  background: url(./images/CRWN1.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -91,6 +91,13 @@ h3 {
 }
 
 /* Background images for side projects */
+
+#kitchen {
+  background: url(./images/kitchen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #fluffy {
   background: url(./images/fluffy-2.png);

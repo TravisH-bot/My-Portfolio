@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.d67c8a03.css",
-    "main.js": "/My-Portfolio/static/js/main.0a40f9ff.js",
+    "main.css": "/My-Portfolio/static/css/main.a8e735af.css",
+    "main.js": "/My-Portfolio/static/js/main.ae3d8e6a.js",
     "static/media/fluffy-2.png": "/My-Portfolio/static/media/fluffy-2.d4d258e8492da4b0e6d4.png",
     "static/media/kitchen.png": "/My-Portfolio/static/media/kitchen.3a9972ecfef7d8421c06.png",
     "static/media/philanthropiccocktails.png": "/My-Portfolio/static/media/philanthropiccocktails.cd4b065b8784f5f2022d.png",
+    "static/media/CRWN1.png": "/My-Portfolio/static/media/CRWN1.3d8c33a6ab3daeebade0.png",
     "static/media/fa-solid-900.ttf": "/My-Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/me.png": "/My-Portfolio/static/media/me.f67757823192d41e60d3.png",
     "static/media/fa-brands-400.ttf": "/My-Portfolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
@@ -33,11 +34,11 @@
     "static/media/mongodb-icon.svg": "/My-Portfolio/static/media/mongodb-icon.0781b723446e1f8a1734f7831a9c3313.svg",
     "static/media/expressjs-icon.svg": "/My-Portfolio/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "index.html": "/My-Portfolio/index.html",
-    "main.d67c8a03.css.map": "/My-Portfolio/static/css/main.d67c8a03.css.map",
-    "main.0a40f9ff.js.map": "/My-Portfolio/static/js/main.0a40f9ff.js.map"
+    "main.a8e735af.css.map": "/My-Portfolio/static/css/main.a8e735af.css.map",
+    "main.ae3d8e6a.js.map": "/My-Portfolio/static/js/main.ae3d8e6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67c8a03.css",
-    "static/js/main.0a40f9ff.js"
+    "static/css/main.a8e735af.css",
+    "static/js/main.ae3d8e6a.js"
   ]
 }

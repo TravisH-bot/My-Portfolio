@@ -21,6 +21,16 @@ a {
   font-size: 30px;
 }
 
+.travis {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.travis.active {
+  color: var(--dark);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 960px) {
   nav h2 {
     font-size: 40px;

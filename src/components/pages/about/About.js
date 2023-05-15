@@ -14,12 +14,12 @@ const About = () => {
       <section>
         <motion.div
           className="photo rounded-2"
-          initial={{ scale: 0 }}
-          animate={{ rotate: 360, scale: 1 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
           transition={{
-            type: "spring",
-            stiffness: 270,
-            damping: 15,
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01],
           }}
         />
       </section>

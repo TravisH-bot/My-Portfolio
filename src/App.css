@@ -28,7 +28,7 @@ body {
 }
 
 .dark {
-  background-color: black;
+  background-color: #171717;
   color: var(--dark);
 }
 

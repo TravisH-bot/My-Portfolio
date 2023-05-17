@@ -36,10 +36,15 @@
 h3 {
   font-family: var(--font-fam-2);
   text-align: center;
-  background-color: var(--darker);
+  background: linear-gradient(
+    90deg,
+    rgba(54, 138, 255, 1) 10%,
+    rgba(0, 128, 255, 1) 50%,
+    rgba(54, 138, 255, 1) 90%
+  );
   width: fit-content;
   border-radius: 10px;
-  color: var(--extra-light);
+  color: var(--light);
   padding: 8px;
   margin: 8px;
   position: relative;

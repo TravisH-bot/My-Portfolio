@@ -36,7 +36,7 @@ function Project(props) {
       ></motion.li>
       <div className="projectTitles">
         <a href={props.link} target="_blank">
-          <h3>{props.title}</h3>
+          <h3 className="projTitle font-extrabold">{props.title}</h3>
         </a>
         <button className="logo">
           <a href={props.linkTwo} target="_blank">

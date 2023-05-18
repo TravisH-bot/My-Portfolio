@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Button,
-} from "@material-tailwind/react";
+import { Card } from "@material-tailwind/react";
 import { motion } from "framer-motion";
 import "../../gitHubLogo/gitHubLogo.css";
 
@@ -35,11 +28,16 @@ function Project(props) {
         id={props.id || ""} //bulletproofing
       ></motion.li>
       <div className="projectTitles">
-        <a href={props.link} target="_blank">
-          <h3 className="projTitle font-extrabold">{props.title}</h3>
-        </a>
+        <div className="liveSite">
+          <a id="titleLink" href={props.link} target="_blank" rel="noreferrer">
+            <h3 className="projTitle font-extrabold">{props.title}</h3>
+          </a>
+          <h6 id="live" className="text-base">
+            Live site
+          </h6>
+        </div>
         <button className="logo">
-          <a href={props.linkTwo} target="_blank">
+          <a href={props.linkTwo} target="_blank" rel="noreferrer">
             <div id="repo">
               <h3
                 id="repoTitle"

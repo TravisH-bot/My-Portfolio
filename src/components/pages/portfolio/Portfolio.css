@@ -55,10 +55,31 @@ h3 {
   margin: 25px;
 }
 
+.projTitle {
+  margin-bottom: 0;
+}
+
+#titleLink {
+  margin-bottom: 0;
+}
+
 .projectTitles {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#live {
+  margin: auto;
+  margin-top: 0;
+  color: var(--darker);
+}
+
+.liveSite {
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  margin-bottom: 10%;
 }
 
 /* Main formatting for current work image */
@@ -68,8 +89,8 @@ h3 {
   background-position: top;
   background-size: cover;
   border-radius: 5px;
-  width: 510px;
-  height: 510px;
+  width: 450px;
+  height: 450px;
   justify-content: center;
   align-items: center;
   border: 4px solid var(--light);

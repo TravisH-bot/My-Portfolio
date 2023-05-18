@@ -188,6 +188,11 @@ h3 {
   .title {
     border-right: transparent;
     border-bottom: solid var(--darker) 4px;
+    flex-direction: column;
+  }
+
+  .disc {
+    font-size: x-small;
   }
 }
 

@@ -6,36 +6,34 @@
 #light > #lightEllipse {
   fill: var(--light-color);
 }
-#light > #vectorOne {
-  fill: var(--dark-color);
-}
 
 #dark > #darkEllipse {
-  fill: var(--light-color);
-}
-#dark > #vectorTwo {
   fill: var(--dark-color);
 }
-
-#light > #lightEllipse,
-#light > #vectorOne,
-#dark > #darkEllipse,
-#dark > #vectorTwo {
-  transition: all 0.5s ease;
+#vectorTwo {
+  fill: lightskyblue;
 }
 
 #light > #lightEllipse,
-#light > #vectorOne {
+#vectorOne,
+#dark > #darkEllipse,
+#vectorTwo {
+  transition: all 0.4s ease;
+}
+
+#light > #lightEllipse,
+#vectorOne {
   transform: translateX(-100%);
 }
 
 svg:hover #light > #lightEllipse,
-#light > #vectorOne {
+#light > #lightEllipse > #vectorOne {
   transform: translateX(0%);
+  opacity: 1;
 }
 svg:hover #dark > #darkEllipse,
-#dark > #vectorTwo {
-  transform: translateX(40%);
+#dark > #darkEllipse > #vectorTwo {
+  transform: translateX(100%);
   opacity: 0;
 }
 

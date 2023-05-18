@@ -14,13 +14,6 @@ const projects = [
     id: "",
   },
   {
-    title: "The Kitchen",
-    link: "https://gentle-shelf-99079.herokuapp.com/",
-    linkTwo: "https://github.com/TravisH-bot/the-kitchen",
-    classes: "project-main",
-    id: "kitchen",
-  },
-  {
     title: "Fluffy",
     link: "https://enigmatic-falls-71377.herokuapp.com/",
     linkTwo: "https://github.com/TravisH-bot/CloudMinnow",
@@ -62,6 +55,13 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/challenge-5-work-day-scheduler",
     id: "wordDay",
   },
+  {
+    title: "*The Kitchen",
+    link: "https://gentle-shelf-99079.herokuapp.com/",
+    linkTwo: "https://github.com/TravisH-bot/the-kitchen",
+    classes: "project-main",
+    id: "kitchen",
+  },
 ];
 
 const container = {
@@ -83,6 +83,11 @@ const Projects = () => {
         <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
           Projects
         </motion.h2>
+        <div className="disclaimer flex self-end">
+          <p className="text-sm">
+            *Site is not functioning correctly. Cannot reach project host.
+          </p>
+        </div>
       </section>
 
       <motion.ul

@@ -22,7 +22,8 @@ const Footer = () => {
         <li>
           <Typography
             as="a"
-            href="#"
+            href="https://twitter.com/"
+            target="blank"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 dark:text-white fs-2 text"
           >

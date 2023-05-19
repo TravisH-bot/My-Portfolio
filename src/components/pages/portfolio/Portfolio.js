@@ -14,7 +14,7 @@ const projects = [
     id: "",
   },
   {
-    title: "Fluffy",
+    title: "Fluffy - Pet Store",
     link: "https://enigmatic-falls-71377.herokuapp.com/",
     linkTwo: "https://github.com/TravisH-bot/CloudMinnow",
     classes: "project-main",

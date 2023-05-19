@@ -32,9 +32,7 @@ function Project(props) {
           <a id="titleLink" href={props.link} target="_blank" rel="noreferrer">
             <h3 className="projTitle">{props.title}</h3>
           </a>
-          <h6 id="live" className="text-xl text-black dark:text-white">
-            Live site
-          </h6>
+          <h6 className="live text-xl">Live site</h6>
         </div>
         <div className="repoSite">
           <button className="logo">
@@ -95,18 +93,9 @@ function Project(props) {
       <div className="techUsed">
         <h3 className="projTitle">Project Description</h3>
         <ul className="techItems">
-          <li>
-            Project Summary - Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit.
-          </li>
-          <li>
-            Concepts - Duis aute irure dolor in reprehenderit in voluptate.
-          </li>
-          <li>
-            TEchnologies Used - Excepteur sint occaecat cupidatat non proident,
-            sunt in.
-          </li>
+          <li>Project summary - {props.projectSummary}</li>
+          <li>Concepts - {props.concepts}</li>
+          <li>Technologies used - {props.technologiesUsed}</li>
         </ul>
       </div>
     </Card>

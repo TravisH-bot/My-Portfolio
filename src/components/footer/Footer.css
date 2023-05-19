@@ -1,3 +1,7 @@
 .feetLogos {
   padding-left: 0px;
 }
+
+.feet ul > li {
+  list-style: none;
+}

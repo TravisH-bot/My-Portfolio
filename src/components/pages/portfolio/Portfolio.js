@@ -12,6 +12,12 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/Crown-Clothing",
     classes: "project-main",
     id: "",
+    projectSummary:
+      "The project is set to simulate an e-commerce store front with Google sign in incorporation and Stripe for checkout. ",
+    concepts:
+      "The main concept was based on a Udemy course to aid in my continued React education that also incorporated some additional new technologies.",
+    technologiesUsed:
+      "React, JavaScript, Styled Components & custom css for styling and mobile responsiveness, Stripe, Redux, Firebase, Google Sign In, Netlify, and more. ",
   },
   {
     title: "Fluffy - Pet Store",
@@ -19,6 +25,12 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/CloudMinnow",
     classes: "project-main",
     id: "fluffy",
+    projectSummary:
+      "Worked on a team of 5 to build a full stack RESTful API application over a one week time period to create a pet store e-commerce store front.",
+    concepts:
+      "Worked on creating the visual components with use of Semantic UI and custom css to be desktop and mobile responsive.",
+    technologiesUsed:
+      "Handlebars, JavaScript, Node.js, Express.js, MYSQL, Sequelize, Heroku,  Semantic UI and more.",
   },
   {
     title: "Philanthropic Cocktails",
@@ -26,6 +38,9 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/philanthropic-cocktails",
     classes: "project-main",
     id: "philanthropic-cocktails",
+    projectSummary: "test",
+    concepts: "test2",
+    technologiesUsed: "test3",
   },
   {
     title: "HTML/CSS Effects",
@@ -33,6 +48,9 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/CSS-snippet-cheatsheet",
     classes: "project-main",
     id: "htmlcss",
+    projectSummary: "test",
+    concepts: "test2",
+    technologiesUsed: "test3",
   },
   {
     title: "Weather Dashboard",
@@ -40,6 +58,9 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/challenge-6-weather-dashboard",
     classes: "project-main",
     id: "weather",
+    projectSummary: "test",
+    concepts: "test2",
+    technologiesUsed: "test3",
   },
   {
     title: "SVG Logo Generator",
@@ -47,6 +68,9 @@ const projects = [
     link: "https://github.com/TravisH-bot/SVG-Logo-Generator",
     linkTwo: "https://github.com/TravisH-bot/SVG-Logo-Generator",
     id: "svg",
+    projectSummary: "test",
+    concepts: "test2",
+    technologiesUsed: "test3",
   },
   {
     title: "Work Day Scheduler",
@@ -54,6 +78,9 @@ const projects = [
     link: "https://travish-bot.github.io/challenge-5-work-day-scheduler/",
     linkTwo: "https://github.com/TravisH-bot/challenge-5-work-day-scheduler",
     id: "wordDay",
+    projectSummary: "test",
+    concepts: "test2",
+    technologiesUsed: "test3",
   },
   {
     title: "*The Kitchen",
@@ -61,6 +88,9 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/the-kitchen",
     classes: "project-main",
     id: "kitchen",
+    projectSummary: "test",
+    concepts: "test2",
+    technologiesUsed: "test3",
   },
 ];
 
@@ -104,6 +134,9 @@ const Projects = () => {
             linkTwo={obj.linkTwo}
             title={obj.title}
             id={obj.id}
+            projectSummary={obj.projectSummary}
+            concepts={obj.concepts}
+            technologiesUsed={obj.technologiesUsed}
           />
         ))}
       </motion.ul>

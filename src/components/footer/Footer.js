@@ -5,7 +5,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="flex max-w-full h-max flex-row flex-wrap items-center justify-center gap-y-6 border-blue-gray-50 py-6 text-center md:justify-center rounded-2 bg-gray-50 dark:bg-gray-900">
+    <footer className="feet flex max-w-full h-max flex-row flex-wrap items-center justify-center gap-y-6 border-blue-gray-50 py-6 text-center md:justify-center rounded-2 bg-gray-50 dark:bg-gray-900">
       <Typography color="blue-gray" className="font-normal"></Typography>
       <ul className="feetLogos flex flex-wrap justify-items-center gap-y-2 gap-x-8">
         <li>

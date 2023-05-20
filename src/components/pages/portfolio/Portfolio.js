@@ -38,9 +38,12 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/philanthropic-cocktails",
     classes: "project-main",
     id: "philanthropic-cocktails",
-    projectSummary: "test",
-    concepts: "test2",
-    technologiesUsed: "test3",
+    projectSummary:
+      "Worked with a team of 4 to build a single page application using third-party APIs to pull data from.",
+    concepts:
+      "We created an application where users are able to search for drinks, alcoholic and non-alcoholic, by cocktail name or ingredient. Users are also offered the option to make a donation to a charity of their choosing.",
+    technologiesUsed:
+      "HTML, CSS, JS, jQuery, Bootstrap, TheCocktailDB cocktail API, and Every.org donation API.",
   },
   {
     title: "HTML/CSS Effects",
@@ -48,9 +51,10 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/CSS-snippet-cheatsheet",
     classes: "project-main",
     id: "htmlcss",
-    projectSummary: "test",
-    concepts: "test2",
-    technologiesUsed: "test3",
+    projectSummary: "A group of interesting and fun CSS tricks.",
+    concepts:
+      "While first learning CSS in our boot camp, we were tasked with creating and displaying a collection of CSS tricks we enjoyed using.",
+    technologiesUsed: "HTML & CSS",
   },
   {
     title: "Weather Dashboard",
@@ -58,9 +62,11 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/challenge-6-weather-dashboard",
     classes: "project-main",
     id: "weather",
-    projectSummary: "test",
-    concepts: "test2",
-    technologiesUsed: "test3",
+    projectSummary:
+      "A web application that pulls the current and future weather forecast for a user selected city, saves searches in local storage, and can be accessed again when clicked on.",
+    concepts:
+      "Created a single page application to gather the current weather for a city displayed on a main card while a 5 day forecast is displayed on smaller cards below.",
+    technologiesUsed: "HTML, CSS, Bootstrap, OpenWeatherMap API",
   },
   {
     title: "SVG Logo Generator",
@@ -68,9 +74,11 @@ const projects = [
     link: "https://github.com/TravisH-bot/SVG-Logo-Generator",
     linkTwo: "https://github.com/TravisH-bot/SVG-Logo-Generator",
     id: "svg",
-    projectSummary: "test",
-    concepts: "test2",
-    technologiesUsed: "test3",
+    projectSummary:
+      "A command line application, using Node, that creates a SVG logo for users based on their inputs. Users can select from a square, circle, or a triangle, the color, and up to three characters for the fill.",
+    concepts:
+      "The app can be used to create simple and quick logos based on user input.",
+    technologiesUsed: "HTML, CSS, SVG, Jest",
   },
   {
     title: "Work Day Scheduler",
@@ -78,9 +86,11 @@ const projects = [
     link: "https://travish-bot.github.io/challenge-5-work-day-scheduler/",
     linkTwo: "https://github.com/TravisH-bot/challenge-5-work-day-scheduler",
     id: "wordDay",
-    projectSummary: "test",
-    concepts: "test2",
-    technologiesUsed: "test3",
+    projectSummary:
+      "Using Day.js in order to format and stylize a work day scheduler as well as using local storage to save events.",
+    concepts:
+      "Created a scheduler for a 9 to 5 work day that saves inputs per time block to local storage and highlights the past, current, and future hours by color.",
+    technologiesUsed: "HTML, CSS, Local Storage",
   },
   {
     title: "*The Kitchen",
@@ -88,9 +98,12 @@ const projects = [
     linkTwo: "https://github.com/TravisH-bot/the-kitchen",
     classes: "project-main",
     id: "kitchen",
-    projectSummary: "test",
-    concepts: "test2",
-    technologiesUsed: "test3",
+    projectSummary:
+      "The Kitchen is a full-stack application to be used by patrons of a pickleball business in order to reserve courts.",
+    concepts:
+      "Created a React app that allows users to create a profile and book, reserve, and pay (via Stripe), for a pickleball court reservation and have reservations saved to their profile.",
+    technologiesUsed:
+      "React, CSS, Material/TailwindCSS, Node.js, Express.js, GraphQL, MongoDB/Mongoose, JWT, Stripe, and more.",
   },
 ];
 

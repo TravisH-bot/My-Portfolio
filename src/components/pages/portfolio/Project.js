@@ -93,9 +93,24 @@ function Project(props) {
       <div className="techUsed">
         <h3 className="projTitle">Project Description</h3>
         <ul className="techItems">
-          <li>Project summary - {props.projectSummary}</li>
-          <li>Concepts - {props.concepts}</li>
-          <li>Technologies used - {props.technologiesUsed}</li>
+          <li>
+            <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
+              Project summary
+            </span>
+            -{props.projectSummary}
+          </li>
+          <li>
+            <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
+              Concepts
+            </span>{" "}
+            - {props.concepts}
+          </li>
+          <li>
+            <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
+              Technologies used
+            </span>{" "}
+            - {props.technologiesUsed}
+          </li>
         </ul>
       </div>
     </Card>

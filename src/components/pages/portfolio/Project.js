@@ -19,7 +19,7 @@ const hoverEffect = {
 
 function Project(props) {
   return (
-    <Card className="projects bg-blue-200 dark:bg-gray-900 mt-6 w-auto">
+    <Card className="projects border-2 border-blue-900 dark:border-yellow-800 bg-blue-200 dark:bg-blue-gray-900 mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]">
       <motion.li
         key={props.i}
         className={props.classes}
@@ -96,8 +96,8 @@ function Project(props) {
           <li>
             <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
               Project summary
-            </span>
-            -{props.projectSummary}
+            </span>{" "}
+            - {props.projectSummary}
           </li>
           <li>
             <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">

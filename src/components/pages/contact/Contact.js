@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
-import { validateEmail } from "../../../utils/helpers";
 import emailjs from "emailjs-com";
 import React, { useRef } from "react";
 
@@ -36,6 +35,15 @@ const Contact = () => {
         </motion.h2>
       </section>
       <form class="contact-form" ref={form} onSubmit={sendEmail}>
+        <div className="myEmail">
+          The form below will forward a message to{" "}
+          <span className="text-blue-900 dark:text-yellow-700">
+            <a className="mailTo" href="mailto:travishackbarth@gmail.com">
+              travishackbarth@gmail.com
+            </a>
+          </span>{" "}
+          or you can email me directly at the same address.
+        </div>
         <div class="mb-3">
           <label for="nameInput" class="form-label">
             Name

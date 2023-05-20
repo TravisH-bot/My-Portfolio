@@ -11,6 +11,15 @@
   padding-top: 10px;
 }
 
+.myEmail {
+  margin-bottom: 20px;
+}
+
+.mailTo {
+  font-size: inherit;
+  color: inherit;
+}
+
 #nameInput {
   width: 50%;
 }

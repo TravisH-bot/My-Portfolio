@@ -109,7 +109,7 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar className="sticky bg-gray-50 dark:bg-gray-900 inset-0 z-10 h-max max-w-full rounded-2 py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="sticky bg-gray-50 dark:bg-gray-900 border-2 border-blue-700 dark:border-yellow-800 inset-0 z-10 h-max max-w-full rounded-0 py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
             <NavLink onClick={navLinkClick} to="/">

@@ -11,7 +11,7 @@
 
 .photo {
   margin-top: 16px;
-  border: solid 4px var(--dark);
+  border: solid 2px var(--dark);
   background: url(./images/me.png);
   background-position: center;
   background-repeat: no-repeat;

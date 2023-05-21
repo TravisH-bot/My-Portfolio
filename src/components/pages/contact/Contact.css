@@ -22,22 +22,27 @@
 
 #nameInput {
   width: 50%;
+  border-radius: 0%;
 }
 
 #subjectInput {
   width: 50%;
+  border-radius: 0%;
 }
 
 #emailInput {
   width: 50%;
+  border-radius: 0%;
 }
 
 #messageArea {
   width: 50%;
+  border-radius: 0%;
 }
 
 #subBtn {
   margin-bottom: 10px;
+  border-radius: 0%;
 }
 
 #work {

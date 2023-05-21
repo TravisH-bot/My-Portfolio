@@ -44,7 +44,6 @@ h3 {
   );
   border: 2px solid var(--light);
   width: fit-content;
-  border-radius: 10px;
   color: var(--light);
   padding: 8px;
   margin: 8px;
@@ -111,7 +110,6 @@ ul > li {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  border-radius: 5px;
   width: 505px;
   height: 400px;
   justify-content: center;

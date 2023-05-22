@@ -183,11 +183,11 @@ ul > li {
 }
 
 #work {
-  border-right: solid var(--light-secondary) 2px;
+  border-right: solid var(--light-primary) 2px;
 }
 
-#work > .dark {
-  border-right: solid var(--light-primary) 8px;
+.dark #work {
+  border-right: solid var(--light-secondary) 2px;
 }
 
 /* Main content formatting as well as the contact me footer */

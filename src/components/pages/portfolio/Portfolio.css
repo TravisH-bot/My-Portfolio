@@ -85,7 +85,7 @@ h6 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 18px;
+  margin: 1px;
   max-width: 450px;
 }
 
@@ -251,15 +251,19 @@ ul > li {
   }
 
   .liveSite {
-    width: 170px;
+    width: 165px;
   }
 
   .projectTitles {
-    height: 120px;
+    height: 110px;
   }
 
   .techUsed {
-    margin: 19px;
+    margin: 12px;
+  }
+
+  .live {
+    font-size: 15px;
   }
 
   ul > li {
@@ -270,7 +274,7 @@ ul > li {
 @media screen and (max-width: 428px) {
   .project-main {
     justify-content: center;
-    width: 340px;
+    width: 300px;
     height: 300px;
   }
 

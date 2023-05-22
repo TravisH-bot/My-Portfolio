@@ -1,6 +1,11 @@
 #res-sub {
   padding: 5px;
   border-radius: 0%;
+  background-color: var(--light-primary);
+}
+
+.dark #res-sub {
+  background-color: var(--light-secondary);
 }
 
 .main-container {

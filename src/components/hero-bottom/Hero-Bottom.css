@@ -1,0 +1,24 @@
+*/ .wave2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 175px;
+  transform: rotate(180deg);
+}
+
+.wave2 .shape-fill {
+  fill: #6200ee;
+}
+
+.dark .wave2 .shape-fill {
+  fill: var(--light-secondary);
+}

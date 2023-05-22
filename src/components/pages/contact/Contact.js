@@ -37,7 +37,7 @@ const Contact = () => {
       <form class="contact-form" ref={form} onSubmit={sendEmail}>
         <div className="myEmail">
           The form below will forward a message to{" "}
-          <span className="text-blue-900 dark:text-yellow-700">
+          <span className="text-purple-900 dark:text-cyan-300">
             <a className="mailTo" href="mailto:travishackbarth@gmail.com">
               travishackbarth@gmail.com
             </a>

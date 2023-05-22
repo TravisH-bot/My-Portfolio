@@ -36,14 +36,14 @@ const Resume = () => {
         </motion.h2>
       </section>
       <section className="flexbox-item body-content">
-        <h3 id="resumeDL">
+        <h2 id="resumeDL">
           Download my resume{" "}
           <a href={pdf} target="blank" download={pdf}>
-            <Button id="res-sub" variant="warning">
+            <Button id="res-sub" variant="secondary">
               Download PDF
             </Button>
           </a>
-        </h3>
+        </h2>
         <h2 className="text-4xl">Skills</h2>
 
         <h2 className="text-3xl drop-shadow-2xl">Front-end</h2>

@@ -61,9 +61,7 @@ const NavBar = () => {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
-        textGradient
-        className="p-3 font-normal"
+        className="p-3 font-normal text-white"
       >
         <NavLink onClick={navLinkClick} to="/">
           About Me
@@ -72,9 +70,9 @@ const NavBar = () => {
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
+        color="white"
         textGradient
-        className="p-3 font-normal"
+        className="p-3 font-normal text-white"
       >
         <NavLink onClick={navLinkClick} to="/portfolio">
           Portfolio
@@ -85,7 +83,7 @@ const NavBar = () => {
         variant="small"
         color="blue-gray"
         textGradient
-        className="p-3 font-normal"
+        className="p-3 font-normal text-white"
       >
         <NavLink onClick={navLinkClick} to="/contact">
           Contact Me
@@ -96,7 +94,7 @@ const NavBar = () => {
         variant="small"
         color="blue-gray"
         textGradient
-        className="p-3 font-normal"
+        className="p-3 font-normal text-white"
       >
         <NavLink onClick={navLinkClick} to="/resume">
           Resume
@@ -109,12 +107,12 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar className="sticky bg-gray-50 dark:bg-gray-900 border-2 border-blue-700 dark:border-yellow-800 inset-0 z-10 h-max max-w-full rounded-0 py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="navBar sticky bg-deep-purple-700 dark:bg-teal-400 border-2 border-gray-700 dark:border-black inset-0 z-10 h-max max-w-full rounded-0 py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
             <NavLink onClick={navLinkClick} to="/">
               <motion.h2
-                className="travis"
+                className="travis text-white"
                 to="/"
                 variants={titleVariants}
                 initial="initial"
@@ -125,7 +123,7 @@ const NavBar = () => {
             </NavLink>
           </Typography>
           <div className="flex items-center gap-4">
-            <MDBIcon fas icon="moon" />
+            <MDBIcon fas icon="moon" className=" text-blue-200" />
             <Switch
               onClick={() =>
                 setColorMode(colorMode === "light" ? "dark" : "light")
@@ -135,7 +133,7 @@ const NavBar = () => {
               size="sm"
               className="hidden sm:inline-block"
             />
-            <MDBIcon far icon="sun" />
+            <MDBIcon far icon="sun" className="text-yellow-500" />
 
             <div className="mr-4 hidden lg:block">{navList}</div>
 

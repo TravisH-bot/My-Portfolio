@@ -11,7 +11,7 @@
   fill: var(--dark-color);
 }
 #vectorTwo {
-  fill: lightskyblue;
+  fill: var(--light-primary);
 }
 
 #light > #lightEllipse,

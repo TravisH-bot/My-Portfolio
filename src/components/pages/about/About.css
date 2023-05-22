@@ -1,6 +1,5 @@
 /* Flexbox for about me paragraph text */
 .flexbox-item {
-  color: var(--darker);
   margin: 5px;
   font-size: 16px;
 }
@@ -11,7 +10,7 @@
 
 .photo {
   margin-top: 16px;
-  border: solid 2px var(--dark);
+  border: solid 2px var(--light-on-background);
   background: url(./images/me.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -21,8 +20,12 @@
 }
 
 p {
-  color: var(--dark);
   font-size: 30px;
+  color: var(light-on-background);
+}
+
+.dark > p {
+  color: var(dark-on-background);
 }
 
 @media screen and (max-width: 972px) {

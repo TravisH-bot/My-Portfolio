@@ -1,18 +1,24 @@
+.navBar {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: var(--light-primary);
+}
+
 nav a:hover {
   opacity: 1;
-  border-radius: 10px;
   transition: ease-in-out 0.7s;
 }
 
 nav a {
+  color: inherit;
   flex-wrap: wrap;
   display: inline-flex;
-  color: var(--dark);
   text-decoration: none;
 }
 
 nav a.active {
-  color: var(--light);
+  color: var(--light-secondary);
   opacity: 1;
 }
 
@@ -27,7 +33,6 @@ a {
 }
 
 .travis.active {
-  color: var(--dark);
   text-decoration: none;
 }
 

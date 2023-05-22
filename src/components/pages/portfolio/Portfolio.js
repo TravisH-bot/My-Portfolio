@@ -112,6 +112,7 @@ const container = {
   visible: {
     opacity: 1,
     scale: 1,
+    delayChildren: 1,
     transition: {
       delayChildren: 0.3,
       staggerChildren: 0.2,

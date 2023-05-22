@@ -6,7 +6,6 @@
 
 /* Flexbox for about me paragraph text */
 .flexbox-item {
-  color: var(--darker);
   margin: 5px;
   font-size: 16px;
 }
@@ -28,7 +27,6 @@
   padding-right: 5px;
   font-size: 50px;
   color: var(--darker);
-  text-shadow: 1px 1px 1px rgb(22, 22, 22);
   font-family: var(--font-fam-2);
 }
 
@@ -36,15 +34,10 @@
 h3 {
   font-family: var(--font-fam-2);
   text-align: center;
-  background: linear-gradient(
-    90deg,
-    rgba(54, 138, 255, 1) 10%,
-    rgba(0, 128, 255, 1) 50%,
-    rgba(54, 138, 255, 1) 90%
-  );
-  border: 2px solid var(--light);
+  background-color: var(--light-secondary);
+  border: 2px solid var(--light-on-background);
   width: fit-content;
-  color: var(--light);
+  color: var(--light-on-background);
   padding: 8px;
   margin: 8px;
   position: relative;
@@ -52,6 +45,7 @@ h3 {
 
 .projects {
   margin: 25px;
+  background-color: var(--light-secondary-variant);
 }
 
 .projTitle {
@@ -96,12 +90,12 @@ h6 {
 }
 
 ul > li {
-  color: var(--darkest);
+  color: var(--light-on-surface);
   list-style: disc;
 }
 
 .dark ul > li {
-  color: white;
+  color: var(--dark-on-surface);
 }
 
 /* Main formatting for current work image */
@@ -114,7 +108,7 @@ ul > li {
   height: 400px;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--light);
+  border: 2px solid var(--light-on-background);
   padding: 5px;
   margin: 10px 10px;
   opacity: 0.5;
@@ -186,7 +180,14 @@ ul > li {
   padding-right: 5px;
   flex: 1 1;
   font-size: 66px;
-  border-right: solid var(--darker) 2px;
+}
+
+#work {
+  border-right: solid var(--light-secondary) 2px;
+}
+
+#work > .dark {
+  border-right: solid var(--light-primary) 8px;
 }
 
 /* Main content formatting as well as the contact me footer */
@@ -194,7 +195,7 @@ ul > li {
 .body-content {
   text-align: left;
   padding-left: 5px;
-  flex: 3 1;
+  flex: 4 1;
 }
 
 .body-content a {
@@ -221,9 +222,12 @@ ul > li {
 
 @media screen and (max-width: 767px) {
   .title {
-    border-right: transparent;
-    border-bottom: solid var(--darker) 4px;
     flex-direction: column;
+  }
+
+  #work {
+    border-right: transparent;
+    border-bottom: solid var(--light-secondary) 2px;
   }
 
   .disc {
@@ -261,7 +265,7 @@ ul > li {
 @media screen and (max-width: 428px) {
   .project-main {
     justify-content: center;
-    width: 300px;
+    width: 340px;
     height: 300px;
   }
 

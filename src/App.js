@@ -4,7 +4,8 @@ import "./App.css";
 import "./index.css";
 import { AnimatePresence } from "framer-motion";
 import NavBar from "./components/header/Navigation";
-import Hero from "./components/hero/Hero";
+import HeroTop from "./components/hero-top/Hero-Top";
+import HeroBottom from "./components/hero-bottom/Hero-Bottom";
 import About from "./components/pages/about/About";
 import Portfolio from "./components/pages/portfolio/Portfolio";
 import Contact from "./components/pages/contact/Contact";
@@ -17,7 +18,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Hero />
+      <HeroTop />
       <AnimatePresence>
         <Routes location={location} key={location.key}>
           <Route path="/" element={<About />} />
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </AnimatePresence>
+      <HeroBottom />
       <Footer />
     </>
   );

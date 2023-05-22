@@ -19,7 +19,10 @@ const hoverEffect = {
 
 function Project(props) {
   return (
-    <Card className="projects rounded-0 border-2 border-blue-900 dark:border-yellow-800 bg-blue-200 dark:bg-blue-gray-900 mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]">
+    <Card
+      id="projects"
+      className="projects bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"
+    >
       <motion.li
         key={props.i}
         className={props.classes}
@@ -32,7 +35,7 @@ function Project(props) {
           <a id="titleLink" href={props.link} target="_blank" rel="noreferrer">
             <h3 className="projTitle">{props.title}</h3>
           </a>
-          <h6 className="live text-xl">Live site</h6>
+          <h6 className="live text-xl">View site</h6>
         </div>
         <div className="repoSite">
           <button className="logo">
@@ -94,19 +97,19 @@ function Project(props) {
         <h3 className="projTitle">Project Description</h3>
         <ul className="techItems">
           <li>
-            <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
+            <span className="font-bold text-decoration-underline text-gray-50 dark:text-black">
               Project summary
             </span>{" "}
             - {props.projectSummary}
           </li>
           <li>
-            <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
+            <span className="font-bold text-decoration-underline text-gray-50 dark:text-black">
               Concepts
             </span>{" "}
             - {props.concepts}
           </li>
           <li>
-            <span className="font-bold text-decoration-underline text-blue-900 dark:text-yellow-700">
+            <span className="font-bold text-decoration-underline text-gray-50 dark:text-black">
               Technologies used
             </span>{" "}
             - {props.technologiesUsed}

@@ -227,6 +227,11 @@ ul > li {
 
   #work {
     border-right: transparent;
+    border-bottom: solid var(--light-primary) 2px;
+  }
+
+  .dark #work {
+    border-right: transparent;
     border-bottom: solid var(--light-secondary) 2px;
   }
 

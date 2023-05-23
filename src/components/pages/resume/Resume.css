@@ -2,8 +2,8 @@
   margin: 0px;
 }
 
-.dark #res-sub {
-  background-color: var(--light-secondary);
+.dark #pdfBtn {
+  border: 2px solid var(--dark-on-surface);
 }
 
 .main-container {

@@ -44,6 +44,10 @@
   margin-left: 0px;
 }
 
+.dark #subBtn {
+  border: 2px solid var(--dark-on-surface);
+}
+
 #work {
   display: flex;
   justify-content: space-evenly;

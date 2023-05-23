@@ -124,6 +124,7 @@ const NavBar = () => {
           </Typography>
           <div className="flex items-center gap-4">
             <MDBIcon fas icon="moon" className=" text-blue-200" />
+            {/* Dark / Light mode switch */}
             <Switch
               onClick={() =>
                 setColorMode(colorMode === "light" ? "dark" : "light")

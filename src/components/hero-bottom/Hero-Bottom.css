@@ -16,7 +16,7 @@
 }
 
 .wave2 .shape-fill {
-  fill: #6200ee;
+  fill: var(--light-primary);
 }
 
 .dark .wave2 .shape-fill {

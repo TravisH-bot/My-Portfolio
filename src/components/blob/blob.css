@@ -10,6 +10,7 @@
 }
 
 #blob-motion {
+  opacity: 0.5;
   position: absolute;
   margin-top: 200px;
   width: 1500px;

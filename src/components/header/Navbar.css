@@ -5,6 +5,10 @@
   background-color: var(--light-primary);
 }
 
+.dark .navBar {
+  background-color: var(--light-secondary);
+}
+
 nav a:hover {
   opacity: 1;
   transition: ease-in-out 0.7s;

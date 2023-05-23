@@ -23,8 +23,6 @@ const iconVariants = {
 
 const iconEffects = {
   scale: 1.2,
-  textShadow: "0px 0px 12px rgb(0,191,255)",
-  boxShadow: "0px 0px 30px rgb(0,191,255)",
 };
 
 const Resume = () => {

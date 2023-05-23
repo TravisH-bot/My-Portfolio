@@ -22,7 +22,7 @@ nav a {
 }
 
 nav a.active {
-  color: var(--light-secondary);
+  color: var(--light-secondary-variant);
   opacity: 1;
 }
 

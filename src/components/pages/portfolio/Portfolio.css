@@ -34,7 +34,7 @@
 h3 {
   font-family: var(--font-fam-2);
   text-align: center;
-  background-color: var(--light-secondary);
+  background-color: var(--light-quaternary-variant);
   border: 2px solid var(--light-on-background);
   width: fit-content;
   color: var(--light-on-background);
@@ -43,8 +43,16 @@ h3 {
   position: relative;
 }
 
+.dark h3 {
+  background-color: var(--light-secondary);
+}
+
 .projects {
   margin: 25px;
+  background-color: var(--light-tertiary-variant);
+}
+
+.dark .projects {
   background-color: var(--light-secondary-variant);
 }
 

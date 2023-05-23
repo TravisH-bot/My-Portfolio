@@ -13,6 +13,9 @@
 #vectorTwo {
   fill: var(--light-primary);
 }
+.dark #vectorTwo {
+  fill: var(--light-secondary);
+}
 
 #light > #lightEllipse,
 #vectorOne,

@@ -6,6 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import NavBar from "./components/header/Navigation";
 import HeroTop from "./components/hero-top/Hero-Top";
 import HeroBottom from "./components/hero-bottom/Hero-Bottom";
+import Blob from "./components/blob/blob";
 import About from "./components/pages/about/About";
 import Portfolio from "./components/pages/portfolio/Portfolio";
 import Contact from "./components/pages/contact/Contact";
@@ -20,6 +21,7 @@ const App = () => {
       <NavBar />
       <HeroTop />
       <AnimatePresence>
+        <Blob />
         <Routes location={location} key={location.key}>
           <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />

@@ -46,6 +46,7 @@
 
 .dark #subBtn {
   border: 2px solid var(--dark-on-surface);
+  color: var(--dark-on-surface);
 }
 
 #work {

@@ -78,7 +78,7 @@ h3:after {
 }
 
 .projectTitles {
-  height: 150px;
+  height: 100px;
 }
 
 #titleLink {
@@ -314,7 +314,7 @@ ul > li {
   }
 
   .projectTitles {
-    height: 110px;
+    height: 100px;
   }
 
   .techUsed {

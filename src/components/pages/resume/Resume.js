@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import { motion } from "framer-motion";
 import "./Resume.css";
 import pdf from "./files/Travis_Hackbarth_Web_Dev_Resume_2023.pdf";

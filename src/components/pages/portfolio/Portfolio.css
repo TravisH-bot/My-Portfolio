@@ -22,7 +22,8 @@
 
 .title h2 {
   display: flex;
-  align-items: center;
+  position: fixed;
+  align-items: start;
   justify-content: center;
   padding-right: 5px;
   font-size: 50px;
@@ -231,6 +232,10 @@ ul > li {
 @media screen and (max-width: 767px) {
   .title {
     flex-direction: column;
+  }
+
+  .title h2 {
+    position: relative;
   }
 
   #work {

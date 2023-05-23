@@ -26,16 +26,16 @@ function Project(props) {
       <motion.li
         key={props.i}
         className={props.classes}
-        variants={item}
-        whileHover={hoverEffect}
         id={props.id || ""} //bulletproofing
       ></motion.li>
       <div className="projectTitles grid grid-flow-col auto-cols-2">
         <div className="liveSite">
-          <a id="titleLink" href={props.link} target="_blank" rel="noreferrer">
-            <h3 className="projTitle">{props.title}</h3>
-          </a>
-          <h6 className="live text-xl">View site</h6>
+          <button className="mainBtn" role="button">
+            <a href={props.link} target="_blank" rel="noreferrer">
+              {props.title}
+            </a>
+          </button>
+          {/* <h6 className="live text-xl">View site</h6> */}
         </div>
         <div className="repoSite">
           <button className="logo">

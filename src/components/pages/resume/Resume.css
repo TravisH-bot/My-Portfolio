@@ -1,7 +1,5 @@
-#res-sub {
-  padding: 5px;
-  border-radius: 0%;
-  background-color: var(--light-primary);
+#pdfBtn {
+  margin: 0px;
 }
 
 .dark #res-sub {

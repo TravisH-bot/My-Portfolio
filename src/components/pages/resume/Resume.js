@@ -39,9 +39,9 @@ const Resume = () => {
         <h2 id="resumeDL">
           Download my resume{" "}
           <a href={pdf} target="blank" download={pdf}>
-            <Button id="res-sub" variant="secondary">
+            <button className="mainBtn" id="pdfBtn" variant="secondary">
               Download PDF
-            </Button>
+            </button>
           </a>
         </h2>
         <h2 className="text-4xl">Skills</h2>

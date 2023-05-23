@@ -35,20 +35,36 @@
 h3 {
   font-family: var(--font-fam-2);
   text-align: center;
-  background-color: var(--light-quaternary-variant);
+  outline: 0;
+  background-color: transparent;
   border: 2px solid var(--light-on-background);
   width: fit-content;
   color: var(--light-on-background);
   padding: 8px;
   margin: 8px;
   position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.dark h3 {
-  background-color: var(--light-secondary);
+h3:after {
+  content: "";
+  background-color: var(--light-primary-variant);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+}
+
+.dark h3:after {
+  background-color: var(--dark-secondary);
 }
 
 .projects {
+  z-index: 0;
   margin: 25px;
   background-color: var(--light-tertiary-variant);
 }
@@ -58,7 +74,7 @@ h3 {
 }
 
 .projTitle {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .projectTitles {
@@ -67,6 +83,8 @@ h3 {
 
 #titleLink {
   margin-bottom: 0;
+  font-size: 22px;
+  font-family: var(--font-fam-2);
 }
 
 .live {
@@ -94,7 +112,7 @@ h6 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 1px;
+  margin: 2px;
   max-width: 450px;
 }
 
@@ -120,17 +138,8 @@ ul > li {
   border: 2px solid var(--light-on-background);
   padding: 5px;
   margin: 10px 10px;
-  opacity: 0.5;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-}
-
-.project-main:hover {
-  opacity: 1;
-}
-
-.project-side:hover {
-  opacity: 1;
 }
 
 /* Background images for side projects */
@@ -229,6 +238,43 @@ ul > li {
   border-radius: 50px;
 }
 
+.mainBtn {
+  color: var(--light-on-surface);
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 10px 13px;
+  outline: 0;
+  border: 2px solid var(--light-on-surface);
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mainBtn:after {
+  content: "";
+  background-color: var(--light-primary-variant);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.dark .mainBtn:after {
+  background-color: var(--dark-secondary);
+}
+
+.mainBtn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
 @media screen and (max-width: 767px) {
   .title {
     flex-direction: column;
@@ -272,10 +318,18 @@ ul > li {
   }
 
   .techUsed {
-    margin: 12px;
+    margin-right: 5px;
   }
 
   .live {
+    font-size: 15px;
+  }
+
+  .mainBtn {
+    padding: 10px 10px 10px;
+  }
+
+  .mainBtn a {
     font-size: 15px;
   }
 

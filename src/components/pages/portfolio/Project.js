@@ -21,7 +21,7 @@ function Project(props) {
               {props.title}
             </a>
           </button>
-          {/* <h6 className="live text-xl">View site</h6> */}
+          <h6 className="live text-xl">View site</h6>
         </div>
         <div className="repoSite">
           <button className="logo">

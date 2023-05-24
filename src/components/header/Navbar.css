@@ -11,7 +11,7 @@
 
 nav a:hover {
   opacity: 1;
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.3s;
 }
 
 nav a {

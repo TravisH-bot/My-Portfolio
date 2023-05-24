@@ -61,7 +61,7 @@ const NavBar = () => {
       <Typography
         as="li"
         variant="small"
-        className="p-3 font-normal text-white"
+        className="p-3 font-normal text-white hover:shadow-sm hover:shadow-black"
       >
         <NavLink onClick={navLinkClick} to="/">
           About Me
@@ -72,7 +72,7 @@ const NavBar = () => {
         variant="small"
         color="white"
         textGradient
-        className="p-3 font-normal text-white"
+        className="p-3 font-normal text-white hover:shadow-sm hover:shadow-black"
       >
         <NavLink onClick={navLinkClick} to="/portfolio">
           Portfolio
@@ -83,7 +83,7 @@ const NavBar = () => {
         variant="small"
         color="blue-gray"
         textGradient
-        className="p-3 font-normal text-white"
+        className="p-3 font-normal text-white hover:shadow-sm hover:shadow-black"
       >
         <NavLink onClick={navLinkClick} to="/contact">
           Contact Me
@@ -94,7 +94,7 @@ const NavBar = () => {
         variant="small"
         color="blue-gray"
         textGradient
-        className="p-3 font-normal text-white"
+        className="p-3 font-normal text-white hover:shadow-sm hover:shadow-black"
       >
         <NavLink onClick={navLinkClick} to="/resume">
           Resume

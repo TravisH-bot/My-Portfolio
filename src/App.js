@@ -20,9 +20,9 @@ const App = () => {
     <>
       <NavBar />
       <HeroTop />
-      <AnimatePresence>
+      <AnimatePresence wait>
         <Blob />
-        <Routes location={location} key={location.key}>
+        <Routes location={location} key={location.pathname}>
           <Route path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />

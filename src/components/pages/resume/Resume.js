@@ -21,7 +21,7 @@ const iconVariants = {
 };
 
 const iconEffects = {
-  scale: 1.2,
+  scale: 1.05,
 };
 
 const Resume = () => {

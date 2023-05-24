@@ -7,6 +7,7 @@ import NavBar from "./components/header/Navigation";
 import HeroTop from "./components/hero-top/Hero-Top";
 import HeroBottom from "./components/hero-bottom/Hero-Bottom";
 import Blob from "./components/blob/Blob";
+import Landing from "./components/pages/landing/Landing";
 import About from "./components/pages/about/About";
 import Portfolio from "./components/pages/portfolio/Portfolio";
 import Contact from "./components/pages/contact/Contact";
@@ -23,7 +24,8 @@ const App = () => {
       <AnimatePresence wait>
         <Blob />
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/About" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />

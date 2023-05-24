@@ -63,7 +63,7 @@ const NavBar = () => {
         variant="small"
         className="p-3 font-normal text-white hover:shadow-sm hover:shadow-black"
       >
-        <NavLink onClick={navLinkClick} to="/">
+        <NavLink onClick={navLinkClick} to="/About">
           About Me
         </NavLink>
       </Typography>

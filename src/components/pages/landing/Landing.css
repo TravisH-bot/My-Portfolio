@@ -1,0 +1,31 @@
+#landLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.artPhoto {
+  width: 500px;
+  height: 600px;
+  background-image: url("./me6d.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 50% 40%;
+  border-bottom-left-radius: 20% 10%;
+}
+
+.typing {
+  font-size: 55px;
+}
+
+@media screen and (max-width: 428px) {
+  .artPhoto {
+    width: 250px;
+    height: 300px;
+  }
+
+  .typing {
+    font-size: 30px;
+  }
+}

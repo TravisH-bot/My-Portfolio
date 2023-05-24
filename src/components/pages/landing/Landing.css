@@ -21,11 +21,11 @@
 
 @media screen and (max-width: 428px) {
   .artPhoto {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 450px;
   }
 
   .typing {
-    font-size: 30px;
+    font-size: 40px;
   }
 }

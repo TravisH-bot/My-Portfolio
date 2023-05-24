@@ -107,19 +107,6 @@ const projects = [
   },
 ];
 
-const container = {
-  hidden: { opacity: 1, scale: 0 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    delayChildren: 1,
-    transition: {
-      delayChildren: 0.3,
-      staggerChildren: 0.2,
-    },
-  },
-};
-
 const Projects = () => {
   return (
     <section className="main-container content">
@@ -137,7 +124,6 @@ const Projects = () => {
       <motion.ul
         initial="hidden"
         animate="visible"
-        variants={container}
         className="flexbox-item-work body-content justify-center"
       >
         {projects.map((obj, i) => (

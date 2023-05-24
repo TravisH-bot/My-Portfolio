@@ -44,6 +44,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../images/lightBg.svg);
+  background-repeat: repeat;
 }
 
 .content {
@@ -53,6 +55,7 @@ body {
 .dark {
   background-color: var(--dark-background);
   color: var(--dark-on-background);
+  background-image: url(../images/darkBg.svg);
 }
 
 .title h2 {

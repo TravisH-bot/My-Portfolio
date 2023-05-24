@@ -95,3 +95,9 @@ a {
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 428px) {
+  .travis {
+    padding-top: 24px;
+  }
+}

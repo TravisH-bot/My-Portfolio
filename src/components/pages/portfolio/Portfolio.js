@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./Portfolio.css";
-import "../../gitHubLogo/gitHubLogo.css";
+import "../../gitHubLogo/GitHubLogo.css";
 
 import Project from "./Project";
 

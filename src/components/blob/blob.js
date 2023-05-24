@@ -1,5 +1,5 @@
 import React from "react";
-import "./blob.css";
+import "./Blob.css";
 
 const Blob = () => {
   return (

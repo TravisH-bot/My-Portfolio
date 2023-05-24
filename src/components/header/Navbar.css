@@ -45,11 +45,53 @@ a {
   text-decoration: none;
 }
 
+.mode-switch {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+#switch {
+  background-color: var(--dark-background);
+}
+
+#switch:checked {
+  background-color: var(--light-background);
+}
+
+.sun {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.moon {
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.ex {
+  stroke: var(--light-primary-variant);
+}
+
+.dark .ex {
+  stroke: var(--dark-secondary);
+}
+
+.hamburger {
+  stroke: var(--light-primary-variant);
+}
+
+.dark .hamburger {
+  stroke: var(--dark-secondary);
+}
+
 @media screen and (max-width: 960px) {
   nav h2 {
     font-size: 40px;
   }
   a {
     font-size: 20px;
+  }
+  .mode-switch {
+    margin-bottom: 0;
   }
 }

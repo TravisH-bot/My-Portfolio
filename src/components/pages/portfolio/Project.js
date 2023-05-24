@@ -1,21 +1,7 @@
 import React from "react";
 import { Card } from "@material-tailwind/react";
 import { motion } from "framer-motion";
-import "../../gitHubLogo/gitHubLogo.css";
-
-const item = {
-  hidden: { y: 20, opacity: 1 },
-  visible: {
-    y: 0,
-    opacity: 1,
-  },
-};
-
-const hoverEffect = {
-  scale: 1.1,
-  textShadow: "0px 0px 12px rgb(0,191,255)",
-  boxShadow: "0px 0px 20px rgb(0,191,255)",
-};
+import "../../gitHubLogo/GitHubLogo.css";
 
 function Project(props) {
   return (

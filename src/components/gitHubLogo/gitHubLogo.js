@@ -1,7 +1,7 @@
 import React from "react";
-import "./gitHubLogo.css";
+import "./GitHubLogo.css";
 
-const gitHubLogo = () => {
+const GitHubLogo = () => {
   return (
     <svg
       width="60"
@@ -40,4 +40,4 @@ const gitHubLogo = () => {
   );
 };
 
-export default gitHubLogo;
+export default GitHubLogo;

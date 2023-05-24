@@ -123,19 +123,30 @@ const NavBar = () => {
             </NavLink>
           </Typography>
           <div className="flex items-center gap-4">
-            <MDBIcon fas icon="moon" className=" text-blue-200" />
             {/* Dark / Light mode switch */}
-            <Switch
-              onClick={() =>
-                setColorMode(colorMode === "light" ? "dark" : "light")
-              }
-              defaultChecked={colorMode === "light" ? true : false}
-              variant="gradient"
-              size="sm"
-              className="hidden sm:inline-block"
-            />
-            <MDBIcon far icon="sun" className="text-yellow-500" />
+            <div className="mode-switch">
+              <MDBIcon
+                fas
+                icon="moon"
+                className="moon text-blue-200"
+                size="lg"
+              />
 
+              <Switch
+                onClick={() =>
+                  setColorMode(colorMode === "light" ? "dark" : "light")
+                }
+                defaultChecked={colorMode === "light" ? true : false}
+                variant="gradient"
+                size="sm"
+              />
+              <MDBIcon
+                fas
+                icon="sun"
+                className="sun text-yellow-500"
+                size="lg"
+              />
+            </div>
             <div className="mr-4 hidden lg:block">{navList}</div>
 
             <IconButton
@@ -148,9 +159,8 @@ const NavBar = () => {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
-                  className="h-7 w-7"
+                  className="hamburger h-7 w-7"
                   viewBox="0 0 24 24"
-                  stroke="currentColor"
                   strokeWidth={2}
                 >
                   <path
@@ -162,9 +172,8 @@ const NavBar = () => {
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-7 w-7"
+                  className="ex h-7 w-7"
                   fill="none"
-                  stroke="currentColor"
                   strokeWidth={2}
                 >
                   <path

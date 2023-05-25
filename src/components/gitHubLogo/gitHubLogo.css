@@ -57,7 +57,7 @@ svg:hover #dark > #darkEllipse,
   display: flex;
   justify-content: center;
   margin-left: 55px;
-  margin-top: 18px;
+  margin-top: 10px;
 }
 
 .myLogo {
@@ -77,7 +77,7 @@ svg:hover #dark > #darkEllipse,
 @media screen and (max-width: 540px) {
   .new {
     margin-left: -5px;
-    margin-top: 1px;
+    margin-top: -4px;
   }
 
   .logo {

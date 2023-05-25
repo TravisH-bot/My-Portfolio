@@ -2,11 +2,11 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  background-color: var(--light-tertiary-variant);
+  /* background-color: var(--light-tertiary-variant); */
 }
 
 .dark .navBar {
-  background-color: var(--dark-secondary-variant);
+  /* background-color: var(--dark-secondary-variant); */
 }
 
 nav a:hover {
@@ -37,7 +37,6 @@ a {
 }
 
 .travis {
-  color: var(--dark);
   text-decoration: none;
 }
 
@@ -51,11 +50,11 @@ a {
 }
 
 #switch {
-  background-color: var(--dark-background);
+  background-color: var(--light-secondary-variant);
 }
 
 #switch:checked {
-  background-color: var(--light-background);
+  background-color: var(--light-primary-variant);
 }
 
 .sun {

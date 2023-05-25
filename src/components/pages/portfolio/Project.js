@@ -24,7 +24,7 @@ function Project(props) {
               <div id="repo">
                 <h3 className=" projTitle">Repository</h3>
               </div>
-              <div className="new">
+              <div className="myGitLogo">
                 <svg
                   className="myLogo"
                   width="60"

@@ -70,6 +70,7 @@
   }
   .contact-form {
     width: 80%;
+    padding-left: 0;
   }
   #nameInput {
     width: 100%;

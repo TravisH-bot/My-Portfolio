@@ -28,6 +28,7 @@
 @media screen and (max-width: 428px) {
   #landLayout {
     flex-direction: column;
+    min-height: 452px;
   }
 
   .animationParent {

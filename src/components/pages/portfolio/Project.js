@@ -1,19 +1,18 @@
 import React from "react";
 import { Card } from "@material-tailwind/react";
-import { motion } from "framer-motion";
 import "../../gitHubLogo/GitHubLogo.css";
 
 function Project(props) {
   return (
     <Card
       id="projects"
-      className="projects bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"
+      className="projects hide bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"
     >
-      <motion.li
+      <li
         key={props.i}
         className={props.classes}
         id={props.id || ""} //bulletproofing
-      ></motion.li>
+      ></li>
       <div className="projectTitles grid grid-flow-col auto-cols-2">
         <div className="liveSite">
           <button className="mainBtn" role="button">

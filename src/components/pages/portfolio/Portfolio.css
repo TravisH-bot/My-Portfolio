@@ -23,7 +23,7 @@
 .title h2 {
   display: flex;
   position: fixed;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   padding-right: 5px;
   font-size: 50px;
@@ -337,15 +337,23 @@ ul > li {
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 429px) {
   .project-main {
     justify-content: center;
-    width: 300px;
+    width: 339px;
     height: 300px;
   }
 
   .main-container {
     align-items: center;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .project-main {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
   }
 }

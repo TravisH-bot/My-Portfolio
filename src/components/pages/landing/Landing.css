@@ -8,11 +8,11 @@
 .artPhoto {
   width: 500px;
   height: 600px;
-  background-image: url("./me6d.png");
+  /* background-image: url("./me6d.png");
   background-size: contain;
-  background-repeat: no-repeat;
-  border-bottom-right-radius: 50% 40%;
-  border-bottom-left-radius: 20% 10%;
+  background-repeat: no-repeat; */
+  /* border-bottom-right-radius: 50% 40%;
+  border-bottom-left-radius: 20% 10%; */
 }
 
 .typing {

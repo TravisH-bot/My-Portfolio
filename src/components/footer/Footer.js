@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
+import pdf from "../../components/pages/resume/files/Travis_Hackbarth_Web_Dev_Resume_2023.pdf";
 import { Typography } from "@material-tailwind/react";
 import "./Footer.css";
 
@@ -22,12 +23,13 @@ const Footer = () => {
         <li>
           <Typography
             as="a"
-            href="https://twitter.com/"
+            href={pdf}
+            download={pdf}
             target="blank"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 dark:text-white fs-2 text"
           >
-            <MDBIcon fab icon="twitter" />
+            <MDBIcon far icon="file-pdf" />
           </Typography>
         </li>
         <li>

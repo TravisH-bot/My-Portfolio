@@ -11,7 +11,7 @@
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 175px;
+  height: 150px;
 }
 
 .wave .shape-fill {
@@ -20,4 +20,10 @@
 
 .dark .wave .shape-fill {
   fill: var(--light-secondary);
+}
+
+@media screen and (max-width: 428px) {
+  .wave svg {
+    height: 75px;
+  }
 }

@@ -1,6 +1,5 @@
 #landLayout {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -17,11 +16,25 @@
   background-image: url("./me6dark.png");
 }
 
+.animationParent {
+  height: 83px;
+  width: 542px;
+}
+
 .typing {
   font-size: 55px;
 }
 
 @media screen and (max-width: 428px) {
+  #landLayout {
+    flex-direction: column;
+  }
+
+  .animationParent {
+    width: 350px;
+    height: 53px;
+  }
+
   .artPhoto {
     width: 350px;
     height: 350px;

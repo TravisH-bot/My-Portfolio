@@ -110,9 +110,13 @@ const NavBar = () => {
       <Navbar className="navBar sticky bg-gray-50 dark:bg-gray-900 border-2 border-gray-700 dark:border-black inset-0 z-10 h-max max-w-full rounded-0 py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-light-blue-400">
           <Typography className="mr-4 cursor-pointer py-1.5 font-medium">
-            <NavLink onClick={navLinkClick} to="/">
+            <NavLink
+              className="text-blue-gray-800 dark:text-white"
+              onClick={navLinkClick}
+              to="/"
+            >
               <motion.h2
-                className="travis text-blue-gray-800 dark:text-white"
+                className="travis"
                 to="/"
                 variants={titleVariants}
                 initial="initial"

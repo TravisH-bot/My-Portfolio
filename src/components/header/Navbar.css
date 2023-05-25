@@ -2,11 +2,6 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  /* background-color: var(--light-tertiary-variant); */
-}
-
-.dark .navBar {
-  /* background-color: var(--dark-secondary-variant); */
 }
 
 nav a:hover {
@@ -34,14 +29,6 @@ nav a.active {
 a {
   text-decoration: none;
   font-size: 30px;
-}
-
-.travis {
-  text-decoration: none;
-}
-
-.travis.active {
-  text-decoration: none;
 }
 
 .mode-switch {

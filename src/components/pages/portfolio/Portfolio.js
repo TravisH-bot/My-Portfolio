@@ -117,7 +117,8 @@ const Projects = () => {
           </motion.h2>
           <div className="disclaimer flex self-end">
             <p className="disc text-sm">
-              *Site is not functioning correctly. Cannot reach project host.
+              *The Kitchen. Site is not functioning correctly. Cannot reach
+              project host.
             </p>
           </div>
         </section>

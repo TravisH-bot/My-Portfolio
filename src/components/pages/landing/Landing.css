@@ -7,12 +7,14 @@
 
 .artPhoto {
   width: 500px;
-  height: 600px;
-  /* background-image: url("./me6d.png");
+  height: 500px;
+  background-image: url("./me6light.png");
   background-size: contain;
-  background-repeat: no-repeat; */
-  /* border-bottom-right-radius: 50% 40%;
-  border-bottom-left-radius: 20% 10%; */
+  background-repeat: no-repeat;
+}
+
+.dark .artPhoto {
+  background-image: url("./me6dark.png");
 }
 
 .typing {
@@ -22,10 +24,10 @@
 @media screen and (max-width: 428px) {
   .artPhoto {
     width: 350px;
-    height: 450px;
+    height: 350px;
   }
 
   .typing {
-    font-size: 40px;
+    font-size: 35px;
   }
 }

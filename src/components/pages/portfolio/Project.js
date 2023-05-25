@@ -8,11 +8,7 @@ function Project(props) {
       id="projects"
       className="projects hide bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"
     >
-      <li
-        key={props.i}
-        className={props.classes}
-        id={props.id || ""} //bulletproofing
-      ></li>
+      <li key={props.i} className={props.classes} id={props.id || ""}></li>
       <div className="projectTitles grid grid-flow-col auto-cols-2">
         <div className="liveSite">
           <button className="mainBtn" role="button">
@@ -20,7 +16,7 @@ function Project(props) {
               {props.title}
             </a>
           </button>
-          <h6 className="live text-xl">View site</h6>
+          <h6 className="live text-xl">Live Demo</h6>
         </div>
         <div className="repoSite">
           <button className="logo">

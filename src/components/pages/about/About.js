@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./About.css";
 
@@ -18,14 +19,26 @@ const About = () => {
           </section>
           <section className="flexbox-item body-content">
             <p className="pGraph">
-              My name is Travis Hackbarth. I am a graduate of the University of
-              Denver's Full-Stack Coding Boot Camp. I have a wide range of
-              experience in IT including sales, advanced software support,
-              leading teams in advanced technical troubleshooting and data and
-              analytics. I enjoy networking hardware, building computers,
-              hiking, traveling, and spending time with friends and family. I am
-              thrilled to begin my adventure in coding and the continuous
-              learning along the way.
+              I am a graduate of the University of Denver's Full-Stack Coding
+              Boot Camp.
+            </p>
+            <p>
+              I have a wide range of experience in IT from sales, PC building,
+              and advanced software support, all the way to leading teams in
+              data and analytics to advanced technical troubleshooting.
+            </p>
+            <p>
+              When I'm not coding I enjoy networking hardware, building
+              computers, hiking, traveling, and spending time with friends and
+              family.
+            </p>
+            <p>
+              You can view my resume{" "}
+              <NavLink to="/resume">
+                <button id="subBtn" className="mainBtn">
+                  Here
+                </button>
+              </NavLink>
             </p>
           </section>
         </section>

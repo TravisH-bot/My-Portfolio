@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import "./Landing.css";
@@ -25,6 +26,11 @@ const Landing = () => {
             />
           </div>
         </div>
+        <NavLink to="/contact">
+          <button id="subBtn" className="mainBtn">
+            Contact Me
+          </button>
+        </NavLink>
       </div>
     </motion.div>
   );

@@ -42,7 +42,7 @@ const Resume = () => {
               </button>
             </a>
           </h2>
-          <h2 className="text-4xl">Skills</h2>
+          <h2 className="text-4xl mt-5">Skills</h2>
 
           <h2 className="text-3xl drop-shadow-2xl">Front-end</h2>
           <div className="grid grid-cols-4 gap-4 front">

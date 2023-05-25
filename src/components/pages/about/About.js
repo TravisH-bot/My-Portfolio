@@ -23,9 +23,10 @@ const About = () => {
               Boot Camp.
             </p>
             <p>
-              I have a wide range of experience in IT from sales, PC building,
-              and advanced software support, all the way to leading teams in
-              data and analytics to advanced technical troubleshooting.
+              I have a wide range of IT experience in the form of sales, PC
+              building, and advanced software support, to leading teams
+              responsible for gathering customer data and analytics to advanced
+              technical application troubleshooting.
             </p>
             <p>
               When I'm not coding I enjoy networking hardware, building
@@ -35,7 +36,7 @@ const About = () => {
             <p>
               You can view my resume{" "}
               <NavLink to="/resume">
-                <button id="subBtn" className="mainBtn">
+                <button id="abtBtn" className="mainBtn">
                   Here
                 </button>
               </NavLink>

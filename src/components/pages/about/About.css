@@ -10,11 +10,11 @@
 
 .photo {
   margin-top: 16px;
-  border: solid 2px var(--light-on-background);
-  background: url(./images/me.png);
+  /* border: solid 2px var(--light-on-background); */
+  background: url(./images/me9about.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 400px;
   height: 400px;
 }
@@ -28,6 +28,11 @@ p {
   color: var(dark-on-background);
 }
 
+#abtBtn {
+  margin-left: -10px;
+  width: 10%;
+}
+
 @media screen and (max-width: 972px) {
   .photo {
     width: 200px;
@@ -35,5 +40,10 @@ p {
   }
   p {
     font-size: 18px;
+  }
+  #abtBtn {
+    margin-left: -10px;
+    width: 20%;
+    font-size: 20px;
   }
 }

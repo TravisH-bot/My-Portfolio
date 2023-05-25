@@ -56,4 +56,9 @@
     border-right: transparent;
     border-bottom: solid var(--darker) 4px;
   }
+
+  #pdfBtn {
+    width: 80%;
+    font-size: 20px;
+  }
 }

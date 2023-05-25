@@ -87,4 +87,9 @@
   #messageArea {
     width: 100%;
   }
+
+  #subBtn {
+    width: 100%;
+    font-size: 20px;
+  }
 }

@@ -6,7 +6,12 @@
 
 nav a:hover {
   opacity: 1;
+  color: var(--light-primary-variant);
   transition: ease-in-out 0.3s;
+}
+
+.dark nav a:hover {
+  color: var(--dark-secondary);
 }
 
 nav a {

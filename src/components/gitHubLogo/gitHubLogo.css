@@ -57,11 +57,12 @@ svg:hover #dark > #darkEllipse,
   display: flex;
   justify-content: center;
   margin-left: 55px;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 .myLogo {
   width: 100px;
+  margin-top: -85px;
 }
 
 @media screen and (max-width: 820px) {
@@ -77,7 +78,7 @@ svg:hover #dark > #darkEllipse,
 @media screen and (max-width: 540px) {
   .myGitLogo {
     margin-left: -5px;
-    margin-top: 24px;
+    margin-top: 85px;
   }
 
   .logo {

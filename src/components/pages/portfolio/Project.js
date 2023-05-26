@@ -6,9 +6,8 @@ function Project(props) {
   return (
     <Card
       id="projects"
-      className="projects hide bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"
+      className="projects bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"
     >
-      <li key={props.i} className={props.classes} id={props.id || ""}></li>
       <div className="projectTitles grid grid-flow-col auto-cols-2">
         <div className="liveSite">
           <button className="mainBtn" role="button">
@@ -22,7 +21,7 @@ function Project(props) {
           <button className="logo">
             <a href={props.linkTwo} target="_blank" rel="noreferrer">
               <div id="repo">
-                <h3 className=" projTitle">Repository</h3>
+                <h3 className="projTitle">Repository</h3>
               </div>
               <div className="myGitLogo">
                 <svg
@@ -74,6 +73,7 @@ function Project(props) {
           </button>
         </div>
       </div>
+      <li key={props.i} className={props.classes} id={props.id || ""}></li>
       <div className="techUsed">
         <h3 className="projTitle">Project Description</h3>
         <ul className="techItems">

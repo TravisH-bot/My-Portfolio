@@ -109,41 +109,39 @@ const projects = [
 
 const Projects = () => {
   return (
-    <motion.div className="test" exit={{ opacity: 0 }}>
-      <section className="main-container content">
-        <section id="work" className="flexbox-item title">
-          <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
-            Projects
-          </motion.h2>
-          <div className="disclaimer flex self-end">
-            <p className="disc text-sm">
-              *The Kitchen. Site is not functioning correctly. Cannot reach
-              project host.
-            </p>
-          </div>
-        </section>
-
-        <motion.ul
-          initial="hidden"
-          animate="visible"
-          className="flexbox-item-work body-content justify-center"
-        >
-          {projects.map((obj, i) => (
-            <Project
-              i={i}
-              classes={obj.classes}
-              link={obj.link}
-              linkTwo={obj.linkTwo}
-              title={obj.title}
-              id={obj.id}
-              projectSummary={obj.projectSummary}
-              concepts={obj.concepts}
-              technologiesUsed={obj.technologiesUsed}
-            />
-          ))}
-        </motion.ul>
+    <section className="main-container content">
+      <section id="work" className="flexbox-item title">
+        <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
+          Projects
+        </motion.h2>
+        <div className="disclaimer flex self-end">
+          <p className="disc text-sm">
+            *The Kitchen. Site is not functioning correctly. Cannot reach
+            project host.
+          </p>
+        </div>
       </section>
-    </motion.div>
+
+      <motion.ul
+        initial="hidden"
+        animate="visible"
+        className="flexbox-item-work body-content justify-center"
+      >
+        {projects.map((obj, i) => (
+          <Project
+            i={i}
+            classes={obj.classes}
+            link={obj.link}
+            linkTwo={obj.linkTwo}
+            title={obj.title}
+            id={obj.id}
+            projectSummary={obj.projectSummary}
+            concepts={obj.concepts}
+            technologiesUsed={obj.technologiesUsed}
+          />
+        ))}
+      </motion.ul>
+    </section>
   );
 };
 

@@ -33,7 +33,7 @@ const Contact = () => {
     toast.success("Thank you! Please allow 3-5 business days for a reply.");
 
   return (
-    <motion.div className="test" exit={{ opacity: 0 }}>
+    <>
       <div className="content" id="contact-container">
         <section id="work" className="flexbox-item title">
           <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
@@ -119,7 +119,7 @@ const Contact = () => {
         pauseOnHover
         theme="light"
       />
-    </motion.div>
+    </>
   );
 };
 

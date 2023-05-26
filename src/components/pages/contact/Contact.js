@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contact.css";
+import { ToastContainer, toast } from "react-toastify";
 import emailjs from "emailjs-com";
 import React, { useRef } from "react";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -27,8 +29,11 @@ const Contact = () => {
     form.current.reset();
   };
 
+  const notify = () =>
+    toast.success("Thank you! Please allow 3-5 business days for a reply.");
+
   return (
-    <motion.div exit={{ opacity: 0 }}>
+    <motion.div className="test" exit={{ opacity: 0 }}>
       <div className="content" id="contact-container">
         <section id="work" className="flexbox-item title">
           <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>
@@ -90,11 +95,30 @@ const Contact = () => {
               ></textarea>
             </div>
           </div>
-          <button id="subBtn" type="submit" value="Send" className="mainBtn">
+          <button
+            onClick={notify}
+            id="subBtn"
+            type="submit"
+            value="Send"
+            className="mainBtn"
+          >
             Submit
           </button>
         </form>
       </div>
+
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
     </motion.div>
   );
 };

@@ -129,10 +129,6 @@ ul > li {
 
 /* Main formatting for current work image */
 .project-main {
-  background: url(./images/CRWN1.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
   width: 505px;
   height: 400px;
   justify-content: center;
@@ -145,6 +141,13 @@ ul > li {
 }
 
 /* Background images for side projects */
+
+#crwn {
+  background: url(./images/CRWN1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #kitchen {
   background: url(./images/kitchen.png);

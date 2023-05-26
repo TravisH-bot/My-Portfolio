@@ -26,7 +26,7 @@ const iconEffects = {
 
 const Resume = () => {
   return (
-    <motion.div exit={{ opacity: 0 }}>
+    <motion.div className="test" exit={{ opacity: 0 }}>
       <section className="main-container content">
         <section id="work" className="flexbox-item title">
           <motion.h2 className="sideTitle" animate={{ fontSize: "50px" }}>

@@ -6,7 +6,7 @@ import "./Landing.css";
 
 const Landing = () => {
   return (
-    <motion.div exit={{ opacity: 0 }}>
+    <motion.div className="test" exit={{ opacity: 0 }}>
       <div id="landLayout" className="content">
         <div className="artPhoto"></div>
         <div className="animationParent">

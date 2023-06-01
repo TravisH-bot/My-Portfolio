@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { MDBIcon } from "mdb-react-ui-kit";
 import { motion } from "framer-motion";
@@ -105,6 +105,33 @@ const NavBar = () => {
 
   const [colorMode, setColorMode] = useColorMode();
 
+  const h2Ref = useRef(0);
+
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  useEffect(() => {
+    h2Ref.current = h2Ref.current.onmouseover = (event) => {
+      let iterations = 0;
+
+      const interval = setInterval(() => {
+        event.target.innerText = event.target.innerText
+          .split("")
+          .map((letter, index) => {
+            if (index < iterations) {
+              return event.target.dataset.value[index];
+            }
+
+            return letters[Math.floor(Math.random() * 26)];
+          })
+          .join("");
+
+        if (iterations >= event.target.dataset.value.length)
+          clearInterval(interval);
+
+        iterations += 1 / 3;
+      }, 30);
+    };
+  });
   return (
     <>
       <Navbar className="navBar sticky bg-opacity-50 dark:bg-opacity-50 bg-gray-50 dark:bg-gray-900 border-2 border-gray-700 dark:border-black inset-0 z-10 h-max max-w-full rounded-0 py-2 px-4 lg:px-8 lg:py-4">
@@ -116,6 +143,8 @@ const NavBar = () => {
               to="/"
             >
               <motion.h2
+                ref={h2Ref}
+                data-value="Travis Hackbarth"
                 className="travis"
                 to="/"
                 variants={titleVariants}

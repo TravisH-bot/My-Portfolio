@@ -302,6 +302,10 @@ ul > li {
   .disc {
     font-size: x-small;
   }
+
+  .projects {
+    min-height: 600px;
+  }
 }
 
 @media screen and (max-width: 540px) {

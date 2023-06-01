@@ -5,7 +5,7 @@ import "../../gitHubLogo/GitHubLogo.css";
 
 function Project(props) {
   return (
-    <Tilt gyroscope={true} tiltMaxAngleX={3} tiltMaxAngleY={3}>
+    <Tilt tiltMaxAngleX={3} tiltMaxAngleY={3}>
       <Card
         id="projects"
         className="projects bg-inherit rounded-0 border-2 border-black mt-6 w-auto shadow-2xl dark:shadow-[0_8px_14px_0px_rgba(255,255,255,0.3)]"

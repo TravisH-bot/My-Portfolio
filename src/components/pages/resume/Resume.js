@@ -44,60 +44,35 @@ const Resume = () => {
         <h2 className="text-3xl drop-shadow-2xl">Front-end</h2>
         <div className="grid grid-cols-4 gap-4 front">
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={html5} style={iconVariants}></img>HTML
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={css} style={iconVariants}></img>CSS
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={js} style={iconVariants}></img>JavaScript
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={jqueryIcon} style={iconVariants}></img>jQuery
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={responsive} style={iconVariants}></img>responsive
                 design
@@ -105,12 +80,7 @@ const Resume = () => {
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={physics} style={iconVariants}></img>
                 React
@@ -118,12 +88,7 @@ const Resume = () => {
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={bootstrap} style={iconVariants}></img>Bootstrap
               </motion.p>
@@ -133,72 +98,42 @@ const Resume = () => {
         <h2 className="text-3xl">Back-end</h2>
         <div className="grid grid-cols-4 gap-4 back">
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={api} style={iconVariants}></img>APIs
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={nodejs} style={iconVariants}></img>Node
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={expressjsIcon} style={iconVariants}></img>Express
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={graphqlIcon} style={iconVariants}></img>GraphQL
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={mysql} style={iconVariants}></img>MySQL
               </motion.p>
             </Tilt>
           </Card>
           <Card className="iconCard bg-transparent">
-            <Tilt
-              className="cardBg"
-              gyroscope={true}
-              tiltMaxAngleX={10}
-              tiltMaxAngleY={10}
-            >
+            <Tilt className="cardBg" tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <motion.p className="ico">
                 <img src={mongodbIcon} style={iconVariants}></img>MongoDB
               </motion.p>

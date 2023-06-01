@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
+import { Card } from "@material-tailwind/react";
 import "./Resume.css";
 import pdf from "./files/Travis_Hackbarth_Web_Dev_Resume_2023.pdf";
 import physics from "./icons/physics.png";
@@ -18,10 +20,6 @@ import responsive from "./icons/responsive-design.png";
 
 const iconVariants = {
   width: "60px",
-};
-
-const iconEffects = {
-  scale: 1.05,
 };
 
 const Resume = () => {
@@ -45,76 +43,167 @@ const Resume = () => {
 
         <h2 className="text-3xl drop-shadow-2xl">Front-end</h2>
         <div className="grid grid-cols-4 gap-4 front">
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={html5} style={iconVariants}></img>HTML
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={css} style={iconVariants}></img>CSS
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={js} style={iconVariants}></img>JavaScript
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={jqueryIcon} style={iconVariants}></img>jQuery
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={responsive} style={iconVariants}></img>responsive design
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={physics} style={iconVariants}></img>
-              React
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={bootstrap} style={iconVariants}></img>Bootstrap
-            </motion.p>
-          </div>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={html5} style={iconVariants}></img>HTML
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={css} style={iconVariants}></img>CSS
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={js} style={iconVariants}></img>JavaScript
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={jqueryIcon} style={iconVariants}></img>jQuery
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={responsive} style={iconVariants}></img>responsive
+                design
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={physics} style={iconVariants}></img>
+                React
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={bootstrap} style={iconVariants}></img>Bootstrap
+              </motion.p>
+            </Tilt>
+          </Card>
         </div>
         <h2 className="text-3xl">Back-end</h2>
         <div className="grid grid-cols-4 gap-4 back">
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={api} style={iconVariants}></img>APIs
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={nodejs} style={iconVariants}></img>Node
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={expressjsIcon} style={iconVariants}></img>Express
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={mysql} style={iconVariants}></img>MySQL, Sequelize
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={mongodbIcon} style={iconVariants}></img>MongoDB,
-              Mongoose
-            </motion.p>
-          </div>
-          <div>
-            <motion.p className="ico" whileHover={iconEffects}>
-              <img src={graphqlIcon} style={iconVariants}></img>GraphQL
-            </motion.p>
-          </div>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={api} style={iconVariants}></img>APIs
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={nodejs} style={iconVariants}></img>Node
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={expressjsIcon} style={iconVariants}></img>Express
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={graphqlIcon} style={iconVariants}></img>GraphQL
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={mysql} style={iconVariants}></img>MySQL
+              </motion.p>
+            </Tilt>
+          </Card>
+          <Card className="iconCard bg-transparent">
+            <Tilt
+              className="cardBg"
+              gyroscope={true}
+              tiltMaxAngleX={10}
+              tiltMaxAngleY={10}
+            >
+              <motion.p className="ico">
+                <img src={mongodbIcon} style={iconVariants}></img>MongoDB
+              </motion.p>
+            </Tilt>
+          </Card>
         </div>
       </section>
     </section>

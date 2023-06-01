@@ -12,6 +12,7 @@
   --light-primary-variant: #649bff;
   --light-tertiary-variant: #3463ba;
   --light-quaternary-variant: #588bea;
+  --light-extra-light: #c2d7ff;
   --light-secondary: #03dac6;
   --light-secondary-variant: #018786;
   --light-background: #ffffff;
@@ -26,6 +27,7 @@
   --dark-primary: #ff813d;
   --dark-primary-variant: #d94c00;
   --dark-secondary: #03dac6;
+  --dark-secondary-light: #bafff8;
   --dark-secondary-variant: #088f83;
   --dark-background: #121212;
   --dark-surface: #121212;

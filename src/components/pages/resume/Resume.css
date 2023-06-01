@@ -32,26 +32,41 @@
   text-align: center;
 }
 
-.ico:hover {
-  background-color: var(--light-primary-variant);
-  color: aliceblue;
-  font-weight: 500;
-  text-align: center;
+.iconCard {
+  border-radius: 0;
 }
 
-.dark .ico:hover {
-  background-color: var(--dark-secondary);
+.cardBg {
+  background-color: var(--light-extra-light);
+  height: 100%;
+}
+
+.dark .cardBg {
+  background-color: var(--dark-secondary-light);
+  height: 100%;
+}
+
+.cardBg::after {
+  opacity: 0.5;
 }
 
 #resumeDL {
   text-align: center;
 }
 
-@media screen and (max-width: 972px) {
+@media screen and (max-width: 1260px) {
+  .ico {
+    font-size: 16px;
+    max-height: 80px;
+  }
+
   .main-container {
     flex-direction: column;
     margin: auto;
   }
+}
+
+@media screen and (max-width: 972px) {
   .title {
     border-right: transparent;
     border-bottom: solid var(--darker) 4px;
@@ -60,5 +75,11 @@
   #pdfBtn {
     width: 80%;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .ico {
+    font-size: 12px;
   }
 }

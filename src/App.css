@@ -10,11 +10,11 @@
 :root {
   --light-primary: #2f65c7;
   --light-primary-variant: #649bff;
-  --light-tertiary-variant: #3463ba;
+  --light-tertiary-variant: rgba(52, 99, 186, 0.8);
   --light-quaternary-variant: #588bea;
   --light-extra-light: #c2d7ff;
   --light-secondary: #03dac6;
-  --light-secondary-variant: #018786;
+  --light-secondary-variant: rgba(1, 135, 134, 0.8);
   --light-background: #ffffff;
   --light-surface: #ffffff;
   --light-error: #b00020;

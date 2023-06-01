@@ -37,17 +37,27 @@
 }
 
 .cardBg {
-  background-color: var(--light-extra-light);
   height: 100%;
 }
 
 .dark .cardBg {
-  background-color: var(--dark-secondary-light);
   height: 100%;
 }
 
 .cardBg::after {
   opacity: 0.5;
+}
+
+.cardBg:hover {
+  background-color: var(--light-extra-light);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.dark .cardBg:hover {
+  background-color: var(--dark-secondary-light);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 #resumeDL {

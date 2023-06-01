@@ -64,6 +64,7 @@ h3:after {
 }
 
 .projects {
+  min-height: 902px;
   z-index: 0;
   margin: 25px;
   background-color: var(--light-tertiary-variant);

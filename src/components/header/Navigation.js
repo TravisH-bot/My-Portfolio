@@ -38,7 +38,7 @@ const NavBar = () => {
   useEffect(() => {
     const currentTitleVariants = { ...titleVariants };
     if (width < 480) {
-      currentTitleVariants.visible.fontSize = "25px";
+      currentTitleVariants.visible.fontSize = "20px";
     } else if (width < 768) {
       currentTitleVariants.visible.fontSize = "30px";
     } else if (width < 976) {

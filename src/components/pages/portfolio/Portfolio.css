@@ -345,6 +345,10 @@ ul > li {
   ul > li {
     font-size: 12px;
   }
+
+  .projectTilt {
+    touch-action: none;
+  }
 }
 
 @media screen and (max-width: 429px) {

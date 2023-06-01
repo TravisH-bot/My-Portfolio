@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Tilt from "react-parallax-tilt";
+import { Tilt } from "react-tilt";
 import { Card } from "@material-tailwind/react";
 import "./Resume.css";
 import pdf from "./files/Travis_Hackbarth_Web_Dev_Resume_2023.pdf";

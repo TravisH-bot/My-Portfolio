@@ -82,4 +82,8 @@
   .ico {
     font-size: 12px;
   }
+
+  .cardBg {
+    animation: none;
+  }
 }

@@ -33,6 +33,11 @@ p {
   width: 10%;
 }
 
+.dark #abtBtn {
+  border: 2px solid var(--dark-on-surface);
+  color: var(--dark-on-surface);
+}
+
 @media screen and (max-width: 972px) {
   .photo {
     width: 200px;

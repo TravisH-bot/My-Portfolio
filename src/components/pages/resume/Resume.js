@@ -47,7 +47,7 @@ const Resume = () => {
           <div className="fem-svg">
             <a
               className="fem-link"
-              href="https://www.frontendmentor.io/profile/TravisH-bot"
+              href="https://www.frontendmentor.io/profile/TravisH-bot/solutions"
               target="_blank"
             >
               <svg

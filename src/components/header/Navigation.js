@@ -61,7 +61,7 @@ const NavBar = () => {
       <Typography
         as="li"
         variant="small"
-        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black"
+        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black dark:hover:shadow-white"
       >
         <NavLink onClick={navLinkClick} to="/About">
           About Me
@@ -72,7 +72,7 @@ const NavBar = () => {
         variant="small"
         color="white"
         textGradient
-        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black"
+        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black dark:hover:shadow-white"
       >
         <NavLink onClick={navLinkClick} to="/portfolio">
           Portfolio
@@ -83,7 +83,7 @@ const NavBar = () => {
         variant="small"
         color="blue-gray"
         textGradient
-        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black"
+        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black dark:hover:shadow-white"
       >
         <NavLink onClick={navLinkClick} to="/contact">
           Contact Me
@@ -94,7 +94,7 @@ const NavBar = () => {
         variant="small"
         color="blue-gray"
         textGradient
-        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black"
+        className="p-3 font-normal text-blue-gray-800 hover:shadow-sm hover:shadow-black dark:hover:shadow-white"
       >
         <NavLink onClick={navLinkClick} to="/resume">
           Resume
